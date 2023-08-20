@@ -2319,3 +2319,10 @@ const u8 gDeoxysPokedexText[] = _(
     "extraterrestrial virus exposed to a laser\n"
     "beam. Its body is configured for superior\n"
     "agility and speed.");
+
+const u8 gBodiladPokedexText[] = _(
+    "Bodilad look up to their trainer in such a way they\n"
+    "aspire to look exactly like them once they evolve.\n"
+    "It's said that with the right care,\n"
+    "your Bodilad will look identical to you.\n");
+

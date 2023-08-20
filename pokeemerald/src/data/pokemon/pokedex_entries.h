@@ -4643,4 +4643,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_BODILAD] =
+    {
+        .categoryName = _("YOUTHFUL"),
+        .height = 5,
+        .weight = 34,
+        .description = gBodiladPokedexText,
+        .pokemonScale = 292,
+        .pokemonOffset = 9,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

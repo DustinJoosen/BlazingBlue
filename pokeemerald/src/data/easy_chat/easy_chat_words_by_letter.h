@@ -183,6 +183,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
     EC_MOVE2(BLIZZARD),
     EC_MOVE2(BLOCK),
     EC_WORD_BOARD,
+    EC_POKEMON(BODILAD),
     EC_MOVE2(BODY_SLAM),
     EC_MOVE2(BONE_CLUB),
     EC_MOVE2(BONE_RUSH),

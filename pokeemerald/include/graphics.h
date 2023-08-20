@@ -2740,6 +2740,13 @@ extern const u32 gMonShinyPalette_Chimecho[];
 extern const u32 gMonStillFrontPic_Chimecho[];
 extern const u8 gMonIcon_Chimecho[];
 extern const u8 gMonFootprint_Chimecho[];
+extern const u32 gMonFrontPic_Bodilad[];
+extern const u32 gMonPalette_Bodilad[];
+extern const u32 gMonBackPic_Bodilad[];
+extern const u32 gMonShinyPalette_Bodilad[];
+extern const u32 gMonStillFrontPic_Bodilad[];
+extern const u8 gMonIcon_Bodilad[];
+extern const u8 gMonFootprint_Bodilad[];
 extern const u32 gMonPic_Egg[];
 extern const u32 gMonPalette_Egg[];
 extern const u32 gMonFrontPic_Egg[];
@@ -2853,6 +2860,7 @@ extern const u32 gMonFrontPic_UnownQuestionMark[];
 extern const u32 gMonStillFrontPic_UnownQuestionMark[];
 extern const u32 gMonBackPic_UnownQuestionMark[];
 extern const u8 gMonIcon_UnownQuestionMark[];
+
 
 extern const u32 gMonFrontPic_CircledQuestionMark[];
 extern const u32 gMonBackPic_CircledQuestionMark[];
