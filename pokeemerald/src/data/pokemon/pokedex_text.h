@@ -2321,8 +2321,8 @@ const u8 gDeoxysPokedexText[] = _(
     "agility and speed.");
 
 const u8 gBodiladPokedexText[] = _(
-    "Bodilad look up to their trainer in such a way they\n"
-    "aspire to look exactly like them once they evolve.\n"
-    "It's said that with the right care,\n"
-    "your Bodilad will look identical to you.\n");
-
+    "Bodilad sometimes get confused with\n"
+    "human boys. When it takes a liking to\n"
+    "a person, it will mimic their\n"
+    "behavior."
+    );
