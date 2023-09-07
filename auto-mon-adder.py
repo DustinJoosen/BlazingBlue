@@ -1,7 +1,7 @@
 
 # Constants based on the new mon.
 
-NAME = "Toxel"
+NAME = "Tandemaus"
 LOWER_NAME = NAME.lower()
 UPPER_NAME = NAME.upper()
 
@@ -50,8 +50,8 @@ SPECIES_INFO = {
     "base_speed": 75,
     "base_sp_attack": 40,
     "base_sp_defence": 45,
-    "type_1": "TYPE_POISON",
-    "type_2": "TYPE_WATER",
+    "type_1": "TYPE_NORMAL",
+    "type_2": "TYPE_NORMAL",
     "catch_rate": 150,
     "exp_yield": 61,
     "ev_yield_hp": 0,

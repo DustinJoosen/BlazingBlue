@@ -2705,6 +2705,13 @@ const u32 gMonShinyPalette_Bodilad[] = INCBIN_U32("graphics/pokemon/bodilad/shin
 const u8 gMonIcon_Bodilad[] = INCBIN_U8("graphics/pokemon/bodilad/icon.4bpp");
 const u8 gMonFootprint_Bodilad[] = INCBIN_U8("graphics/pokemon/bodilad/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/front.4bpp.lz");
+const u32 gMonPalette_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/normal.gbapal.lz");
+const u32 gMonBackPic_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/back.4bpp.lz");
+const u32 gMonShinyPalette_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/shiny.gbapal.lz");
+const u32 gMonIcon_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/icon.4bpp");
+const u32 gMonFootprint_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

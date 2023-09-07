@@ -2314,6 +2314,13 @@ const u8 gJirachiPokedexText[] = _(
     "envelops the body to protect it from\n"
     "enemies.");
 
+const u8 gTandemausPokedexText[] = _(
+	"Exhiniting great teamwork, they use their\n"
+	"Incisors to cut pieces out of any material\n"
+	"that might be useful for a nest, then make\n"
+	"off with them.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

@@ -4632,6 +4632,18 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+	[NATIONAL_DEX_TANDEMAUS] = 
+	{
+		.categoryName = _("BABY"),
+		.height = 30,
+		.weight = 1.8,
+		.description = gTandemausPokedexText,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

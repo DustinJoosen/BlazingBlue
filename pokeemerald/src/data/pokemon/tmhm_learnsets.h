@@ -10153,6 +10153,19 @@ const union {
         .ROCK_SMASH = TRUE,
     } },
 
+	[SPECIES_TANDEMAUS] = { .learnset = {
+		.PROTECT = TRUE,
+		.WATER_PULSE = TRUE,
+		.THIEF = TRUE,
+		.FACADE = TRUE,
+		.AERIAL_ACE = TRUE,
+		.SUNNY_DAY = TRUE,
+		.RAIN_DANCE = TRUE,
+		.DIG = TRUE,
+		.BULLET_SEED = TRUE,
+		.REST = TRUE,
+		.TAUNT = TRUE,
+	}},
     [SPECIES_CHIMECHO] = { .learnset = {
         .CALM_MIND = TRUE,
         .TOXIC = TRUE,

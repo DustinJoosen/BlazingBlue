@@ -11695,4 +11695,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     }
+	,[SPECIES_TANDEMAUS] = 
+	{
+		.baseHP	= 50,
+		.baseAttack	= 50,
+		.baseDefense	= 50,
+		.baseSpeed	= 50,
+		.baseSpAttack	= 50,
+		.baseSpDefense	= 50,
+		.types = {TYPE_NORMAL, TYPE_NORMAL},
+		.catchRate	= 150,
+		.expYield	= 61,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 0,
+		.evYield_Speed	= 1,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = MON_GENDERLESS,
+		.eggCycles = 10,
+		.friendship = 50,
+		.growthRate = GROWTH_FAST,
+		.eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FAIRY},
+		.abilities = {ABILITY_RUN_AWAY, ABILITY_PICKUP},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_WHITE,
+		.noFlip = FALSE
+	},
 };
