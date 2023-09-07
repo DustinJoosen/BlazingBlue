@@ -166,6 +166,13 @@
       "elevation": 0,
       "dest_map": "MAP_FIRST_GYM_TEST_MAP",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_LITTTLEROOT_POKECENTER",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
