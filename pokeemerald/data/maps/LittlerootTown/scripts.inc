@@ -1019,13 +1019,3 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
-
-LittlerootTown_EventScript_NewSign::
-	lockall
-	msgbox LittlerootTown_EventScript_NewSign_Text_0
-	releaseall
-	return
-
-
-LittlerootTown_EventScript_NewSign_Text_0:
-	.string "Hello World!$"

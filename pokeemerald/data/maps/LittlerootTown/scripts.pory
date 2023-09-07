@@ -1022,8 +1022,3 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 
 `
-script LittlerootTown_EventScript_NewSign {
-    lockall
-    msgbox("Hello World!")
-    releaseall
-}
