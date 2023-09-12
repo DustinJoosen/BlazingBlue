@@ -1,55 +1,55 @@
 NAME            SPRITE          CRY         DATA
 
 
-Blipbug         SPRITE
-Dottler         SPRITE
-Orbeetle        SPRITE
-Piplup          SPRITE
-Mareanie        SPRITE
-Toxapex         SPRITE
-Squirtle        SPRITE
-Lilipup         SPRITE
-Herdier         SPRITE
-Stoutland       SPRITE
-Impidimp        SPRITE
-Morgrem         SPRITE
-Grimmsnarl      SPRITE
-Joltik          SPRITE
-Galvantula      SPRITE
-Frillish        SPRITE
-Jellicent       SPRITE
-Leaveon         SPRITE
-Glaceon         SPRITE
-Sylveon         SPRITE
-Sewaddle        SPRITE
-Swadloon        SPRITE
-Leavanny        SPRITE
-Overqwil        SPRITE
-Toxel           SPRITE
-Toxtricity      SPRITE
-Gliscor         SPRITE
-Gible           SPRITE
-Gabite          SPRITE
-Garchomp        SPRITE
-Phantump        SPRITE
-Trevenant       SPRITE
-Goomy           SPRITE
-Sliggoo         SPRITE
-Goodra          SPRITE
-Sliggoo         SPRITE
-Goodra          SPRITE
-Bisharp         SPRITE
-Honedge         SPRITE
-Doublade        SPRITE
-Aegislash       SPRITE
-Yamper          SPRITE
-Boltund         SPRITE
-Deino           SPRITE
-Zweilous        SPRITE
-Hydreigon       SPRITE
-Milcery         SPRITE
-Alcemie         SPRITE
-Kleavor         SPRITE
-Klink           SPRITE
-Klang           SPRITE
-Klinklang       SPRITE
+Blipbug         SPRITE          CRY
+Dottler         SPRITE          CRY
+Orbeetle        SPRITE          CRY
+Piplup          SPRITE          CRY
+Mareanie        SPRITE          CRY
+Toxapex         SPRITE          CRY
+Squirtle        SPRITE          CRY
+Lilipup         SPRITE          CRY
+Herdier         SPRITE          CRY
+Stoutland       SPRITE          CRY
+Impidimp        SPRITE          CRY
+Morgrem         SPRITE          CRY
+Grimmsnarl      SPRITE          CRY
+Joltik          SPRITE          CRY
+Galvantula      SPRITE          CRY
+Frillish        SPRITE          CRY
+Jellicent       SPRITE          CRY
+Leaveon         SPRITE          CRY
+Glaceon         SPRITE          CRY
+Sylveon         SPRITE          CRY
+Sewaddle        SPRITE          CRY
+Swadloon        SPRITE          CRY
+Leavanny        SPRITE          CRY
+Overqwil        SPRITE          CRY
+Toxel           SPRITE          CRY
+Toxtricity      SPRITE          CRY
+Gliscor         SPRITE          CRY
+Gible           SPRITE          CRY
+Gabite          SPRITE          CRY
+Garchomp        SPRITE          CRY
+Phantump        SPRITE          CRY
+Trevenant       SPRITE          CRY
+Goomy           SPRITE          CRY
+Sliggoo         SPRITE          CRY
+Goodra          SPRITE          CRY
+Sliggoo         SPRITE          CRY
+Goodra          SPRITE          CRY
+Bisharp         SPRITE          CRY
+Honedge         SPRITE          CRY
+Doublade        SPRITE          CRY
+Aegislash       SPRITE          CRY
+Yamper          SPRITE          CRY
+Boltund         SPRITE          CRY
+Deino           SPRITE          CRY
+Zweilous        SPRITE          CRY
+Hydreigon       SPRITE          CRY
+Milcery         SPRITE          CRY
+Alcemie         SPRITE          CRY
+Kleavor         SPRITE          CRY
+Klink           SPRITE          CRY
+Klang           SPRITE          CRY
+Klinklang       SPRITE          CRY
