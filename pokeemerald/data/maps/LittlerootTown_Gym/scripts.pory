@@ -1,0 +1,19 @@
+mapscripts LittlerootTown_Gym_MapScripts { }
+
+script LittlerootTown_Gym_EventScript_GymStatue {
+    lockall
+
+    msgbox("LITTLEROOT TOWN GYM")
+
+    releaseall
+    end
+}
+
+script LittlerootTown_Gym_EventScript_Guide {
+    lockall
+
+    msgbox("insert speech here")
+
+    releaseall
+    end
+}

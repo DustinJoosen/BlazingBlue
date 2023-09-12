@@ -985,6 +985,7 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "I want to go see what's going on,\n"
 	.string "but I don't have any POKéMON…\p"
 	.string "Can you go see what's happening\n"
+    .string "Because I am a little bitch"
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch:
@@ -1019,3 +1020,23 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_EventScript_FuckYou::
+	lockall
+	faceplayer
+	msgbox LittlerootTown_EventScript_FuckYou_Text_0
+	releaseall
+	return
+
+
+LittlerootTown_EventScript_Cherryslab::
+	lockall
+	msgbox LittlerootTown_EventScript_Cherryslab_Text_0
+	releaseall
+	return
+
+
+LittlerootTown_EventScript_FuckYou_Text_0:
+	.string "FUCK YOU!!!$"
+
+LittlerootTown_EventScript_Cherryslab_Text_0:
+	.string "Cherry's lab$"
