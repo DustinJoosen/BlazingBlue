@@ -179,17 +179,17 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string "myself even stronger.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
+	.string "There's no need for JOHN, our GYM\n"
 	.string "LEADER, to deal with you!\p"
 	.string "I'm plenty good enough for you!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
+	.string "JOHN, I…\n"
 	.string "I lost!$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
+	.string "JOHN is cute and she's strong.\n"
+	.string "They're the ultimate LEADER!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_AshleyIntro:
@@ -204,10 +204,9 @@ FortreeCity_Gym_Text_AshleyPostBattle:
 	.string "FORTREE can live without fear.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-	.string "When WINONA takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "You'd better watch it!\n"
+    .string "Me and TANDEMAUS won't be defeated\l"
+	.string "easily!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
 	.string "Urk!\n"
@@ -215,7 +214,7 @@ FortreeCity_Gym_Text_HumbertoDefeat:
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
 	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
+	.string "Don't get distracted staring at JOHN DOE\l"
 	.string "or you'll go crashing down in a heap!$"
 
 FortreeCity_Gym_Text_DariusIntro:
@@ -232,14 +231,13 @@ FortreeCity_Gym_Text_DariusPostBattle:
 	.string "WINONA's POKéMON are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
+	.string "I am John Doe. I am the LEADER of\n"
+	.string "the LITTLEROOT POKéMON GYM.\p"
+	.string "I have become one with NORMAL POKéMON.\n"
+	.string "It's time to show you the NORMAL type can't\n"
+	.string "be underestimated...\p"
 	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "of me and my normal ass!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "Never before have I seen a TRAINER\n"
@@ -250,10 +248,10 @@ FortreeCity_Gym_Text_WinonaDefeat:
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "from John Doe!.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all POKéMON up\n"
+	.string "With the BODI BADGE, all POKéMON up\n"
 	.string "to LV 70, even those received through\l"
 	.string "trades, will obey your every command.\p"
 	.string "You will also be able to use\n"

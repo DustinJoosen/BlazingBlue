@@ -1022,3 +1022,17 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 
 `
+
+
+script LittlerootTown_EventScript_FuckYou {
+    lockall
+    faceplayer
+    msgbox("FUCK YOU!!!")
+    releaseall
+}
+
+script LittlerootTown_EventScript_Cherryslab {
+    lockall
+    msgbox("Cherry's lab")
+    releaseall
+}

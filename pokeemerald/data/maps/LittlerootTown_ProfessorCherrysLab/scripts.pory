@@ -1,0 +1,77 @@
+mapscripts LittlerootTown_ProfessorCherrysLab_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: LittlerootTown_ProfessorCherrysLab_EventScript_BallDefault
+}
+
+script LittlerootTown_ProfessorCherrysLab_EventScript_BallDefault {
+    setvar(VAR_UNUSED_0x40F7, 0)
+}
+
+script ProfessorCherrysLab_EventScript_Professor {
+    lockall
+    faceplayer
+
+    msgbox("Do you wanna swap the starters?", MSGBOX_YESNO)
+    releaseall
+}
+
+
+script ProfessorCherrysLab_EventScript_Pokeball {
+    lockall
+    msgbox("Do you want to choose Bodilad?", MSGBOX_YESNO)
+    showmonpic(SPECIES_BODILAD, 10, 3)
+    if (var(VAR_RESULT) == YES) {
+        givemon(SPECIES_BODILAD, 50, ITEM_MASTER_BALL)
+
+        if (var(VAR_RESULT) == MON_GIVEN_TO_PARTY) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bodilad")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknamePartyMon)
+        }
+        elif (var(VAR_RESULT) == MON_GIVEN_TO_PC) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bodilad")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknameBoxMon)
+        }
+        else {
+            hidemonpic
+            msgbox("No more room")
+        }
+    }
+    else {
+        hidemonpic
+        msgbox(ProfessorCherrysLab_NotChosen)
+    }
+
+    waitmessage
+    releaseall
+    end
+}
+
+script NicknamePartyMon {
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+
+    if (var(VAR_RESULT) == YES) {
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script NicknameBoxMon {
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+
+    if (var(VAR_RESULT) == YES) {
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    msgbox("Transferred to PC")
+}
+
+text ProfessorCherrysLab_NotChosen {
+    "You did not choose the pokemon"
+}
+
