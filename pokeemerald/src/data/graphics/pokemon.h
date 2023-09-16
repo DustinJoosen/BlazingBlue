@@ -2733,6 +2733,13 @@ const u32 gMonShinyPalette_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/shiny.
 const u32 gMonIcon_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/icon.4bpp");
 const u32 gMonFootprint_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/front.4bpp.lz");
+const u32 gMonPalette_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/normal.gbapal.lz");
+const u32 gMonBackPic_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/back.4bpp.lz");
+const u32 gMonShinyPalette_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/shiny.gbapal.lz");
+const u32 gMonIcon_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/icon.4bpp");
+const u32 gMonFootprint_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

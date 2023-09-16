@@ -417,5 +417,6 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_TOXEL] = gMonFootprint_Toxel,
 	[SPECIES_TOXTRICITY] = gMonFootprint_Toxtricity,
 	[SPECIES_PIPLUP] = gMonFootprint_Piplup,
+	[SPECIES_JOLTIK] = gMonFootprint_Joltik,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

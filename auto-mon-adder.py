@@ -1,14 +1,14 @@
 
 # Constants based on the new mon.
 
-NAME = "Piplup"
+NAME = "Joltik"
 LOWER_NAME = NAME.lower()
 UPPER_NAME = NAME.upper()
 
-CATEGORY_NAME = "Penguin"
-HEIGHT = 4
-WEIGHT = 5.2
-POKEMON_SCALE = 64
+CATEGORY_NAME = "ATTACHING"
+HEIGHT = 0.1
+WEIGHT = 0.6
+POKEMON_SCALE = 8
 POKEMON_OFFSET = 0
 TRAINER_SCALE = 290
 TRAINER_OFFSET = 2
@@ -23,50 +23,60 @@ POKEDEX_TEXT = [
 ]
 
 LEARNED_MOVES = [
-    [1, "MOVE_TACKLE"],
-    [6, "MOVE_BUBBLE"],
-    [11, "MOVE_AERIAL_ACE"],
-    [18, "MOVE_WATER_PULSE"],
-    [25, "MOVE_DOUBLE_EDGE"],
+    [1, "MOVE_ABSORB"],
+    [1, "MOVE_FURY_CUTTER"],
+    [4, "MOVE_SPARK"],
+    [8, "MOVE_PIN_MISSILE"],
+    [12, "MOVE_STRING_SHOT"],
+    [16, "MOVE_THUNDER_WAVE"],
+    [24, "MOVE_AGILITY"],
+    [28, "MOVE_BITE"],
+    [32, "MOVE_SLASH"],
+    [37, "MOVE_THUNDER_PUNCH"],
+    [40, "MOVE_SCREECH"],
+    [44, "MOVE_ACID"]
 ]
 
 ALLOWED_TMS_AND_HMS = [
-    "AERIAL_ACE",
-    "ICE_BEAM",
+    "LIGHT_SCREEN",
     "REST",
-    "ROCK_SMASH",
-    "WATER_PULSE",
+    "THIEF",
+    "PROTECT",
+    "GIGA_DRAIN",
+    "ATTRACT",
+    "RAIN_DANCE",
+    "FACADE",
 ]
 
 SPECIES_INFO = {
-    "base_hp": 53,
-    "base_attack": 51,
-    "base_defense": 53,
-    "base_sp_attack": 61,
-    "base_sp_defence": 56,
-    "base_speed": 40,
-    "type_1": "TYPE_WATER",
-    "type_2": "TYPE_WATER",
-    "catch_rate": 45,
-    "exp_yield": 63,
+    "base_hp": 50,
+    "base_attack": 47,
+    "base_defense": 50,
+    "base_sp_attack": 57,
+    "base_sp_defence": 50,
+    "base_speed": 65,
+    "type_1": "TYPE_BUG",
+    "type_2": "TYPE_ELECTRIC",
+    "catch_rate": 190,
+    "exp_yield": 64,
     "ev_yield_hp": 0,
-    "ev_yield_attack": 1,
+    "ev_yield_attack": 0,
     "ev_yield_defense": 0,
-    "ev_yield_speed": 0,
+    "ev_yield_speed": 1,
     "ev_yield_sp_attack": 0,
     "ev_yield_sp_defense": 0,
     "item_common": "ITEM_NONE",
     "item_rare": "ITEM_NONE",
-    "gender_ratio": "PERCENT_FEMALE(12)",    #50-50
+    "gender_ratio": "PERCENT_FEMALE(50)",    #50-50
     "egg_cycles": 20,
     "friendship": 50,
-    "growth_rate": "GROWTH_MEDIUM_SLOW",
-    "egg_group_1": "EGG_GROUP_FIELD",
-    "egg_group_2": "EGG_GROUP_WATER_1",
-    "ability_1": "ABILITY_TORRENT",
-    "ability_2": "ABILITY_TORRENT",
+    "growth_rate": "GROWTH_MEDIUM_FAST",
+    "egg_group_1": "EGG_GROUP_BUG",
+    "egg_group_2": "EGG_GROUP_BUG",
+    "ability_1": "ABILITY_COMPOUND_EYES",
+    "ability_2": "ABILITY_COMPOUND_EYES",
     "safari_zone_flee_rate": 0,
-    "body_color": "BODY_COLOR_BLUE",
+    "body_color": "BODY_COLOR_YELLOW",
     "no_flip": "FALSE"
 }
 

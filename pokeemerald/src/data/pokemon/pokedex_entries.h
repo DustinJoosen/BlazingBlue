@@ -4680,6 +4680,18 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_JOLTIK] = 
+	{
+		.categoryName = _("ATTACHING"),
+		.height = 0.1,
+		.weight = 0.6,
+		.description = gJoltikPokedexText,
+		.pokemonScale = 8,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

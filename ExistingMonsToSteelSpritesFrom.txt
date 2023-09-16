@@ -4,7 +4,7 @@ NAME            SPRITE          CRY         DATA
 Blipbug         SPRITE          CRY
 Dottler         SPRITE          CRY
 Orbeetle        SPRITE          CRY
-Piplup          SPRITE          CRY
+Piplup          SPRITE          CRY         DATA
 Mareanie        SPRITE          CRY
 Toxapex         SPRITE          CRY
 Squirtle        SPRITE          CRY
@@ -14,7 +14,7 @@ Stoutland       SPRITE          CRY
 Impidimp        SPRITE          CRY
 Morgrem         SPRITE          CRY
 Grimmsnarl      SPRITE          CRY
-Joltik          SPRITE          CRY
+Joltik          SPRITE          CRY         DATA
 Galvantula      SPRITE          CRY
 Frillish        SPRITE          CRY
 Jellicent       SPRITE          CRY
@@ -25,8 +25,8 @@ Sewaddle        SPRITE          CRY
 Swadloon        SPRITE          CRY
 Leavanny        SPRITE          CRY
 Overqwil        SPRITE          CRY
-Toxel           SPRITE          CRY
-Toxtricity      SPRITE          CRY
+Toxel           SPRITE          CRY         DATA
+Toxtricity      SPRITE          CRY         DATA
 Gliscor         SPRITE          CRY
 Gible           SPRITE          CRY
 Gabite          SPRITE          CRY

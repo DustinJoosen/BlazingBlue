@@ -11811,4 +11811,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.bodyColor = BODY_COLOR_BLUE,
 		.noFlip = FALSE
 	}
+	,[SPECIES_JOLTIK] = 
+	{
+		.baseHP	= 50,
+		.baseAttack	= 50,
+		.baseDefense	= 50,
+		.baseSpeed	= 50,
+		.baseSpAttack	= 50,
+		.baseSpDefense	= 50,
+		.types = {TYPE_BUG, TYPE_ELECTRIC},
+		.catchRate	= 190,
+		.expYield	= 64,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 0,
+		.evYield_Speed	= 1,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = {EGG_GROUP_BUG, EGG_GROUP_BUG},
+		.abilities = {ABILITY_COMPOUND_EYES, ABILITY_COMPOUND_EYES},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_YELLOW,
+		.noFlip = FALSE
+	}
 };

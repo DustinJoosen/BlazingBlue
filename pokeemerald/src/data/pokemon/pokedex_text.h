@@ -2342,6 +2342,13 @@ const u8 gPiplupPokedexText[] = _(
 	"unwilling to accept handouts from people.\n"
 );
 
+const u8 gJoltikPokedexText[] = _(
+	"They attach themselves to large-bodied\n"
+	"Pokemon and absorb static electricity\n"
+	"which they store in an electric pouch.\n"
+	"It's widely regarded as adorable.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

@@ -5738,6 +5738,7 @@ static const u32 sTutorLearnsets[] =
 	[SPECIES_TOXEL]         = (0),
 	[SPECIES_TOXTRICITY]         = (0),
 	[SPECIES_PIPLUP]         = (0),
+	[SPECIES_JOLTIK]         = (0),
     [SPECIES_CHIMECHO]         = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_DREAM_EATER)

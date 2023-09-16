@@ -10194,6 +10194,16 @@ const union {
 		.ROCK_SMASH = TRUE,
 		.WATER_PULSE = TRUE,
 	}},
+	[SPECIES_JOLTIK] = { .learnset = {
+		.LIGHT_SCREEN = TRUE,
+		.REST = TRUE,
+		.THIEF = TRUE,
+		.PROTECT = TRUE,
+		.GIGA_DRAIN = TRUE,
+		.ATTRACT = TRUE,
+		.RAIN_DANCE = TRUE,
+		.FACADE = TRUE,
+	}},
     [SPECIES_CHIMECHO] = { .learnset = {
         .CALM_MIND = TRUE,
         .TOXIC = TRUE,
