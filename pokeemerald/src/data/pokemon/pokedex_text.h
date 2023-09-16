@@ -2321,6 +2321,27 @@ const u8 gTandemausPokedexText[] = _(
 	"off with them.\n"
 );
 
+const u8 gToxelPokedexText[] = _(
+	"It has no problem drinking dirty water. \n"
+	"An organ inside Toxel's body filters\n"
+	"such water into a poisonous liquid\n"
+	"that is harmless to Toxel.\n"
+);
+
+const u8 gToxtricityPokedexText[] = _(
+	"It has an electrical organ on its chest.\n"
+	"While generating electricity, it fills\n"
+	"its surroundings with what sounds\n"
+	"like the strumming of a bass guitar.\n"
+);
+
+const u8 gPiplupPokedexText[] = _(
+	"Piplup prefers cold climates and coasts.\n"
+	"It's an adorable little thing-as cute as\n"
+	"any child-but it's also prideful,\n"
+	"unwilling to accept handouts from people.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

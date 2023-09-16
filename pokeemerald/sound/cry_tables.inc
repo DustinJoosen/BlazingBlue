@@ -388,6 +388,9 @@ gCryTable::
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
+	cry Cry_Piplup
+	cry Cry_Toxtricity
+	cry Cry_Toxel
 	cry Cry_Tandemaus
 	cry Cry_Bodilad
 
@@ -781,5 +784,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Chimecho
+	cry_reverse Cry_Piplup
+	cry_reverse Cry_Toxtricity
+	cry_reverse Cry_Toxel
 	cry_reverse Cry_Tandemaus
     cry_reverse Cry_Bodilad

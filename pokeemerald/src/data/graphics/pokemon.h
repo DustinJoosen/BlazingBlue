@@ -2712,6 +2712,27 @@ const u32 gMonShinyPalette_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/
 const u32 gMonIcon_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/icon.4bpp");
 const u32 gMonFootprint_Tandemaus[] = INCBIN_U32("graphics/pokemon/tandemaus/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/front.4bpp.lz");
+const u32 gMonPalette_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/normal.gbapal.lz");
+const u32 gMonBackPic_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/back.4bpp.lz");
+const u32 gMonShinyPalette_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/shiny.gbapal.lz");
+const u32 gMonIcon_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/icon.4bpp");
+const u32 gMonFootprint_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/front.4bpp.lz");
+const u32 gMonPalette_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/normal.gbapal.lz");
+const u32 gMonBackPic_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/back.4bpp.lz");
+const u32 gMonShinyPalette_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/shiny.gbapal.lz");
+const u32 gMonIcon_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/icon.4bpp");
+const u32 gMonFootprint_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/front.4bpp.lz");
+const u32 gMonPalette_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/normal.gbapal.lz");
+const u32 gMonBackPic_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/back.4bpp.lz");
+const u32 gMonShinyPalette_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/shiny.gbapal.lz");
+const u32 gMonIcon_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/icon.4bpp");
+const u32 gMonFootprint_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

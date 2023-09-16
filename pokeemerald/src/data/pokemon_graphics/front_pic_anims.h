@@ -4596,6 +4596,25 @@ static const union AnimCmd sAnim_Tandemaus_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Toxel_1[] = 
+{
+    ANIMCMD_FRAME(0, 1),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Toxtricity_1[] = 
+{
+	ANIMCMD_FRAME(0, 1),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Piplup_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5239,6 +5258,9 @@ DOUBLE_ANIMATION(Deoxys);
 SINGLE_ANIMATION(Chimecho);
 SINGLE_ANIMATION(Bodilad);
 SINGLE_ANIMATION(Tandemaus);
+SINGLE_ANIMATION(Toxel);
+SINGLE_ANIMATION(Toxtricity);
+SINGLE_ANIMATION(Piplup);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5684,6 +5706,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHIMECHO]    = sAnims_Chimecho,
     [SPECIES_BODILAD]     = sAnims_Bodilad,
 	[SPECIES_TANDEMAUS]         = sAnims_Tandemaus,
+	[SPECIES_TOXEL]         = sAnims_Toxel,
+	[SPECIES_TOXTRICITY]         = sAnims_Toxtricity,
+	[SPECIES_PIPLUP]         = sAnims_Piplup,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

@@ -1,89 +1,74 @@
 
 # Constants based on the new mon.
 
-NAME = "Tandemaus"
+NAME = "Piplup"
 LOWER_NAME = NAME.lower()
 UPPER_NAME = NAME.upper()
 
-POKEDEX_TEXT = [
-    "Exhiniting great teamwork, they use their",
-    "Incisors to cut pieces out of any material",
-    "that might be useful for a nest, then make",
-    "off with them."
-]
-
-LEARNED_MOVES = [
-    [1, "MOVE_POUND"],
-    # [1, "MOVE_BABY-DOLL_EYES"],
-    # [5, "MOVE_ECHOES_VOICE"],
-    [8, "MOVE_HELPING_HAND"],
-    [11, "MOVE_SUPER_FANG"],
-    [14, "MOVE_DOUBLE_SLAP"],
-    [18, "MOVE_BULLET_SEED"],
-    [22, "MOVE_ENCORE"],
-    # [26, "MOVE_PLAY_ROUGH"],
-    [30, "MOVE_HYPER_VOICE"],
-    [33, "MOVE_CHARM"],
-    [37, "MOVE_BEAT_UP"],
-    # [41, "MOVE_COPYCAT"],
-    # [46, "MOVE_POPULATION_BOMB"]
-]
-
-ALLOWED_TMS_AND_HMS = [
-    "PROTECT",
-    "WATER_PULSE",
-    "THIEF",
-    "FACADE",
-    "AERIAL_ACE",
-    "SUNNY_DAY",
-    "RAIN_DANCE",
-    "DIG",
-    "BULLET_SEED",
-    "REST",
-    "TAUNT",
-]
-
-SPECIES_INFO = {
-    "base_hp": 50,
-    "base_attack": 50,
-    "base_defense": 45,
-    "base_speed": 75,
-    "base_sp_attack": 40,
-    "base_sp_defence": 45,
-    "type_1": "TYPE_NORMAL",
-    "type_2": "TYPE_NORMAL",
-    "catch_rate": 150,
-    "exp_yield": 61,
-    "ev_yield_hp": 0,
-    "ev_yield_attack": 0,
-    "ev_yield_defense": 0,
-    "ev_yield_speed": 1,
-    "ev_yield_sp_attack": 0,
-    "ev_yield_sp_defense": 0,
-    "item_common": "ITEM_NONE",
-    "item_rare": "ITEM_NONE",
-    "gender_ratio": "MON_GENDERLESS",
-    "egg_cycles": 10,
-    "friendship": 50,
-    "growth_rate": "GROWTH_FAST",
-    "egg_group_1": "EGG_GROUP_FIELD",
-    "egg_group_2": "EGG_GROUP_FAIRY",
-    "ability_1": "ABILITY_RUN_AWAY",
-    "ability_2": "ABILITY_PICKUP",
-    "safari_zone_flee_rate": 0,
-    "body_color": "BODY_COLOR_WHITE",
-    "no_flip": "FALSE"
-}
-
-CATEGORY_NAME = "BABY"
-HEIGHT = 30
-WEIGHT = 1.8
-POKEMON_SCALE = 256
+CATEGORY_NAME = "Penguin"
+HEIGHT = 4
+WEIGHT = 5.2
+POKEMON_SCALE = 64
 POKEMON_OFFSET = 0
 TRAINER_SCALE = 290
 TRAINER_OFFSET = 2
 
-EVOLUTION = ["EVO_LEVEL", 26, "SPECIES_DITTO"]
+EVOLUTION = ["EVO_LEVEL", 30, "SPECIES_DITTO"]
+
+POKEDEX_TEXT = [
+    "Prefers cold climes and appears along coasts.",
+    "It's an adorable little thing—as cute as",
+    "any child—but it's also prideful, unwilling",
+    "to accept handouts from people."
+]
+
+LEARNED_MOVES = [
+    [1, "MOVE_TACKLE"],
+    [6, "MOVE_BUBBLE"],
+    [11, "MOVE_AERIAL_ACE"],
+    [18, "MOVE_WATER_PULSE"],
+    [25, "MOVE_DOUBLE_EDGE"],
+]
+
+ALLOWED_TMS_AND_HMS = [
+    "AERIAL_ACE",
+    "ICE_BEAM",
+    "REST",
+    "ROCK_SMASH",
+    "WATER_PULSE",
+]
+
+SPECIES_INFO = {
+    "base_hp": 53,
+    "base_attack": 51,
+    "base_defense": 53,
+    "base_sp_attack": 61,
+    "base_sp_defence": 56,
+    "base_speed": 40,
+    "type_1": "TYPE_WATER",
+    "type_2": "TYPE_WATER",
+    "catch_rate": 45,
+    "exp_yield": 63,
+    "ev_yield_hp": 0,
+    "ev_yield_attack": 1,
+    "ev_yield_defense": 0,
+    "ev_yield_speed": 0,
+    "ev_yield_sp_attack": 0,
+    "ev_yield_sp_defense": 0,
+    "item_common": "ITEM_NONE",
+    "item_rare": "ITEM_NONE",
+    "gender_ratio": "PERCENT_FEMALE(12)",    #50-50
+    "egg_cycles": 20,
+    "friendship": 50,
+    "growth_rate": "GROWTH_MEDIUM_SLOW",
+    "egg_group_1": "EGG_GROUP_FIELD",
+    "egg_group_2": "EGG_GROUP_WATER_1",
+    "ability_1": "ABILITY_TORRENT",
+    "ability_2": "ABILITY_TORRENT",
+    "safari_zone_flee_rate": 0,
+    "body_color": "BODY_COLOR_BLUE",
+    "no_flip": "FALSE"
+}
 
 # Handy functions
 
@@ -404,7 +389,7 @@ def register_species_dex_entry_2():
 
     with open(file_path, "r") as r_handle:
         content = r_handle.read()
-        content = content.replace(main_line, f"#define NATIONAL_DEX_COUNT  NATIONAL_DEX_{UPPER_NAME}")
+        content = content.replace(main_line, f"#define NATIONAL_DEX_COUNT  NATIONAL_DEX_{UPPER_NAME}\n")
 
         with open(file_path, "w") as w_handle:
             w_handle.write(content)
@@ -436,7 +421,7 @@ def register_species_dex_entry_4():
 
     with open(file_path, "r") as r_handle:
         content = r_handle.read()
-        content = content.replace(main_line, f"#define HOENN_DEX_COUNT  HOENN_DEX_{UPPER_NAME}")
+        content = content.replace(main_line, f"#define HOENN_DEX_COUNT HOENN_DEX_{UPPER_NAME}\n")
 
         with open(file_path, "w") as w_handle:
             w_handle.write(content)
@@ -588,7 +573,7 @@ def define_species_info():
     text += f"\t\t.bodyColor = {SPECIES_INFO['body_color']},\n"
     text += f"\t\t.noFlip = {SPECIES_INFO['no_flip']}\n"
 
-    text += "\t},\n"
+    text += "\t}\n"
 
     # Add to file
     trigger_line = "};"
@@ -774,3 +759,6 @@ add_cry_table_2()
 add_cry_id()
 add_evolution()
 warn_left_todos()
+
+
+#TODO: Fix problem where an apostroph in dex_text is unown (Toxel's)

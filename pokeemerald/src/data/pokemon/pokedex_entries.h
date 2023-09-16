@@ -4644,6 +4644,42 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_TOXEL] = 
+	{
+		.categoryName = _("BABY"),
+		.height = 40,
+		.weight = 11.0,
+		.description = gToxelPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_TOXTRICITY] = 
+	{
+		.categoryName = _("PUNK"),
+		.height = 16,
+		.weight = 40.0,
+		.description = gToxtricityPokedexText,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_PIPLUP] = 
+	{
+		.categoryName = _("Penguin"),
+		.height = 4,
+		.weight = 5.2,
+		.description = gPiplupPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),
