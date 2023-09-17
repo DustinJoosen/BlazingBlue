@@ -1,86 +1,20 @@
+import auto_mon_adder_constants_reader
+import tkinter as tk
+from tkinter import filedialog
 
-# Constants based on the new mon.
+# Get the file name
+root = tk.Tk()
+root.withdraw()
 
-NAME = "Orbeetle"
+file_path = filedialog.askopenfilename()
+
+# Define the constants-reader
+constants_reader = auto_mon_adder_constants_reader.ConstantsReader(file_path)
+
+# Define a few constants
+NAME = constants_reader.get("POKEMON_NAME")
 LOWER_NAME = NAME.lower()
 UPPER_NAME = NAME.upper()
-
-CATEGORY_NAME = "SEVEN SPOT"
-HEIGHT = 0.4
-WEIGHT = 40.8
-POKEMON_SCALE = 128
-POKEMON_OFFSET = 0
-TRAINER_SCALE = 290
-TRAINER_OFFSET = 2
-
-EVOLUTION = ["EVO_LEVEL", 30, "SPECIES_DITTO"]
-
-POKEDEX_TEXT = [
-    "It emits psychic energy to observe",
-    "and study what's around it—and what's",
-    "around it can include things over six",
-    "miles away."
-]
-
-LEARNED_MOVES = [
-    [1, "MOVE_CONFUSION"],
-    [1, "MOVE_LIGHT_SCREEN"],
-    [1, "MOVE_REFLECT"],
-    [1, "MOVE_PIN_MISSILE"],
-    [4, "MOVE_CONFUSE_RAY"],
-    [8, "MOVE_MAGIC_COAT"],
-    [12, "MOVE_AGILITY"],
-    [16, "MOVE_PSYBEAM"],
-    [20, "MOVE_HYPNOSIS"],
-    [32, "MOVE_MIRROR_COAT"],
-    [36, "MOVE_PSYCHIC"],
-    [44, "MOVE_CALM_MIND"],
-]
-
-ALLOWED_TMS_AND_HMS = [
-    "HYPER_BEAM",
-    "SOLAR_BEAM",
-    "LIGHT_SCREEN",
-    "REFLECT",
-    "SAFEGUARD",
-    "REST",
-    "PROTECT",
-    "GIGA_DRAIN",
-    "ATTRACT",
-    "FACADE",
-]
-SPECIES_INFO = {
-    "base_hp": 60,
-    "base_attack": 45,
-    "base_defense": 110,
-    "base_sp_attack": 80,
-    "base_sp_defence": 120,
-    "base_speed": 90,
-    "type_1": "TYPE_BUG",
-    "type_2": "TYPE_PSYCHIC",
-    "catch_rate": 45,
-    "exp_yield": 253,
-    "ev_yield_hp": 0,
-    "ev_yield_attack": 0,
-    "ev_yield_defense": 0,
-    "ev_yield_speed": 0,
-    "ev_yield_sp_attack": 0,
-    "ev_yield_sp_defense": 3,
-    "gender_ratio": "PERCENT_FEMALE(50)",
-    "egg_cycles": 15,
-    "friendship": 50,
-    "growth_rate": "GROWTH_MEDIUM_FAST",
-    "egg_group_1": "EGG_GROUP_BUG",
-    "egg_group_2": "EGG_GROUP_BUG",
-    "ability_1": "ABILITY_SWARM",
-    "ability_2": "ABILITY_SWARM",
-    "body_color": "BODY_COLOR_RED",
-    "safari_zone_flee_rate": 0,
-    "no_flip": "FALSE",
-    "item_common": "ITEM_NONE",
-    "item_rare": "ITEM_NONE"
-}
-
 
 # Handy functions
 
@@ -481,7 +415,7 @@ def add_pokedex_text():
     # Generate text
 
     text = f"const u8 g{NAME}PokedexText[] = _(\n"
-    for line in POKEDEX_TEXT:
+    for line in constants_reader.get_pokedex_text():
         text += f"\t\"{line}\\n\"\n"
     text += ");\n\n"
 
@@ -498,14 +432,14 @@ def add_pokedex_entry():
     text = f"\t[NATIONAL_DEX_{UPPER_NAME}] = \n"
     text += "\t{\n"
 
-    text += f"\t\t.categoryName = _(\"{CATEGORY_NAME}\"),\n"
-    text += f"\t\t.height = {HEIGHT},\n"
-    text += f"\t\t.weight = {WEIGHT},\n"
+    text += f"\t\t.categoryName = _(\"{constants_reader.get('CATEGORY_NAME')}\"),\n"
+    text += f"\t\t.height = {constants_reader.get('HEIGHT')},\n"
+    text += f"\t\t.weight = {constants_reader.get('WEIGHT')},\n"
     text += f"\t\t.description = g{NAME}PokedexText,\n"
-    text += f"\t\t.pokemonScale = {POKEMON_SCALE},\n"
-    text += f"\t\t.pokemonOffset = {POKEMON_OFFSET},\n"
-    text += f"\t\t.trainerScale = {TRAINER_SCALE},\n"
-    text += f"\t\t.trainerOffset = {TRAINER_OFFSET},\n"
+    text += f"\t\t.pokemonScale = {constants_reader.get('POKEMON_SCALE')},\n"
+    text += "\t\t.pokemonOffset = 0,\n"
+    text += f"\t\t.trainerScale = {constants_reader.get('POKEMON_SCALE')},\n"
+    text += "\t\t.trainerOffset = 2,\n"
 
     text += "\t},\n\n"
 
@@ -558,32 +492,32 @@ def define_species_info():
     text = f"\t,[SPECIES_{UPPER_NAME}] = \n"
     text += "\t{\n"
 
-    text += f"\t\t.baseHP\t= {SPECIES_INFO['base_hp']},\n"
-    text += f"\t\t.baseAttack\t= {SPECIES_INFO['base_hp']},\n"
-    text += f"\t\t.baseDefense\t= {SPECIES_INFO['base_hp']},\n"
-    text += f"\t\t.baseSpeed\t= {SPECIES_INFO['base_hp']},\n"
-    text += f"\t\t.baseSpAttack\t= {SPECIES_INFO['base_hp']},\n"
-    text += f"\t\t.baseSpDefense\t= {SPECIES_INFO['base_hp']},\n"
-    text += "\t\t.types = {" + SPECIES_INFO["type_1"] + ", " + SPECIES_INFO["type_2"] + "},\n"
-    text += f"\t\t.catchRate\t= {SPECIES_INFO['catch_rate']},\n"
-    text += f"\t\t.expYield\t= {SPECIES_INFO['exp_yield']},\n"
-    text += f"\t\t.evYield_HP\t= {SPECIES_INFO['ev_yield_hp']},\n"
-    text += f"\t\t.evYield_Attack\t= {SPECIES_INFO['ev_yield_attack']},\n"
-    text += f"\t\t.evYield_Defense\t= {SPECIES_INFO['ev_yield_defense']},\n"
-    text += f"\t\t.evYield_Speed\t= {SPECIES_INFO['ev_yield_speed']},\n"
-    text += f"\t\t.evYield_SpAttack\t= {SPECIES_INFO['ev_yield_sp_attack']},\n"
-    text += f"\t\t.evYield_SpDefense\t= {SPECIES_INFO['ev_yield_sp_defense']},\n"
-    text += f"\t\t.itemCommon = {SPECIES_INFO['item_common']},\n"
-    text += f"\t\t.itemRare = {SPECIES_INFO['item_rare']},\n"
-    text += f"\t\t.genderRatio = {SPECIES_INFO['gender_ratio']},\n"
-    text += f"\t\t.eggCycles = {SPECIES_INFO['egg_cycles']},\n"
-    text += f"\t\t.friendship = {SPECIES_INFO['friendship']},\n"
-    text += f"\t\t.growthRate = {SPECIES_INFO['growth_rate']},\n"
-    text += "\t\t.eggGroups = {" + SPECIES_INFO["egg_group_1"] + ", " + SPECIES_INFO["egg_group_2"] + "},\n"
-    text += "\t\t.abilities = {" + SPECIES_INFO["ability_1"] + ", " + SPECIES_INFO["ability_2"] + "},\n"
-    text += f"\t\t.safariZoneFleeRate = {SPECIES_INFO['safari_zone_flee_rate']},\n"
-    text += f"\t\t.bodyColor = {SPECIES_INFO['body_color']},\n"
-    text += f"\t\t.noFlip = {SPECIES_INFO['no_flip']}\n"
+    text += f"\t\t.baseHP\t= {constants_reader.get('BASE_HP')},\n"
+    text += f"\t\t.baseAttack\t= {constants_reader.get('BASE_ATTACK')},\n"
+    text += f"\t\t.baseDefense\t= {constants_reader.get('BASE_DEFENSE')},\n"
+    text += f"\t\t.baseSpeed\t= {constants_reader.get('BASE_SPEED')},\n"
+    text += f"\t\t.baseSpAttack\t= {constants_reader.get('BASE_SP_ATTACK')},\n"
+    text += f"\t\t.baseSpDefense\t= {constants_reader.get('BASE_SP_DEFENSE')},\n"
+    text += "\t\t.types = { TYPE_" + constants_reader.get('TYPE_1') + ", TYPE_" + constants_reader.get('TYPE_2') + "},\n"
+    text += f"\t\t.catchRate\t= {constants_reader.get('CATCH_RATE')},\n"
+    text += f"\t\t.expYield\t= {constants_reader.get('EXP_YIELD')},\n"
+    text += f"\t\t.evYield_HP\t= {constants_reader.get('EV_YIELD_HP')},\n"
+    text += f"\t\t.evYield_Attack\t= {constants_reader.get('EV_YIELD_ATTACK')},\n"
+    text += f"\t\t.evYield_Defense\t= {constants_reader.get('EV_YIELD_DEFENSE')},\n"
+    text += f"\t\t.evYield_Speed\t= {constants_reader.get('EV_YIELD_SPEED')},\n"
+    text += f"\t\t.evYield_SpAttack\t= {constants_reader.get('EV_YIELD_SP_ATTACK')},\n"
+    text += f"\t\t.evYield_SpDefense\t= {constants_reader.get('EV_YIELD_SP_DEFENSE')},\n"
+    text += f"\t\t.itemCommon = ITEM_NONE,\n"
+    text += f"\t\t.itemRare = ITEM_NONE,\n"
+    text += f"\t\t.genderRatio = {constants_reader.get('GENDER_RATIO')},\n"
+    text += f"\t\t.eggCycles = {constants_reader.get('EGG_CYCLES')},\n"
+    text += f"\t\t.friendship = {constants_reader.get('FRIENDSHIP')},\n"
+    text += f"\t\t.growthRate = {constants_reader.get('GROWTH_RATE')},\n"
+    text += "\t\t.eggGroups = {" + constants_reader.get('EGG_GROUP_1') + ", " + constants_reader.get('EGG_GROUP_2') + "},\n"
+    text += "\t\t.abilities = {ABILITY_" + constants_reader.get('ABILITY_1') + ", ABILITY_" + constants_reader.get('ABILITY_2') + "},\n"
+    text += f"\t\t.safariZoneFleeRate = 0,\n"
+    text += f"\t\t.bodyColor = BODY_COLOR_{constants_reader.get('BODY_COLOR')},\n"
+    text += f"\t\t.noFlip = FALSE\n"
 
     text += "\t}\n"
 
@@ -598,8 +532,8 @@ def define_species_info():
 def register_moveset():
     # Generate text
     text = f"\n\nstatic const u16 s{NAME}LevelUpLearnset[] = " + "{\n"
-    for lvl, name in LEARNED_MOVES:
-        text += f"\tLEVEL_UP_MOVE({lvl}, {name}),\n"
+    for lvl, name in constants_reader.get_learned_moves():
+        text += f"\tLEVEL_UP_MOVE({lvl}, MOVE_{name}),\n"
     text += "\tLEVEL_UP_END\n};"
 
     # Add to file
@@ -624,7 +558,7 @@ def register_moveset_pointer():
 def register_tmhms():
     # Generate text
     text = "\t[SPECIES_" + UPPER_NAME + "] = { .learnset = {\n"
-    for tmhm in ALLOWED_TMS_AND_HMS:
+    for tmhm in constants_reader.get_allowed_tms_and_hms():
         text += f"\t\t.{tmhm} = TRUE,\n"
     text += "\t}},\n"
 
@@ -710,8 +644,12 @@ def add_cry_id():
 
 
 def add_evolution():
+    if not constants_reader.get("HAS_EVOLUTION") == "True":
+        print("evolution not defined")
+        return
+    
     # Generate text
-    text = "\t[SPECIES_" + UPPER_NAME + "]     = {{" + EVOLUTION[0] + ", " + str(EVOLUTION[1]) + ", " + EVOLUTION[2] + "}},\n"
+    text = f"\t[SPECIES_{UPPER_NAME}] = " + "{{" + f"{constants_reader.get('EVOLUTION_METHOD')}, {constants_reader.get('EVOLUTION_CRITERIA')}, {constants_reader.get('EVOLUTION_SPECIES')}" + "}},\n"
 
     # Add to file
     trigger_line = "};"
