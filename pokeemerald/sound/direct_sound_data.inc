@@ -1939,6 +1939,10 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Impidimp::
+	.incbin "sound/direct_sound_samples/cries/impidimp.bin"
+
+	.align 2
 Cry_Orbeetle::
 	.incbin "sound/direct_sound_samples/cries/orbeetle.bin"
 

@@ -388,6 +388,7 @@ gCryTable::
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
+	cry Cry_Impidimp
 	cry Cry_Orbeetle
 	cry Cry_Dottler
 	cry Cry_Blipbug
@@ -789,6 +790,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Chimecho
+	cry_reverse Cry_Impidimp
 	cry_reverse Cry_Orbeetle
 	cry_reverse Cry_Dottler
 	cry_reverse Cry_Blipbug

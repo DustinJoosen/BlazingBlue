@@ -4740,6 +4740,18 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_IMPIDIMP] = 
+	{
+		.categoryName = _("WILY"),
+		.height = 0.4,
+		.weight = 5.5,
+		.description = gImpidimpPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

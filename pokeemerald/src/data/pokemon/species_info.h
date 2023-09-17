@@ -11956,4 +11956,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.bodyColor = BODY_COLOR_RED,
 		.noFlip = FALSE
 	}
+	,[SPECIES_IMPIDIMP] = 
+	{
+		.baseHP	= 45,
+		.baseAttack	= 45,
+		.baseDefense	= 30,
+		.baseSpeed	= 50,
+		.baseSpAttack	= 55,
+		.baseSpDefense	= 30,
+		.types = { TYPE_DARK, TYPE_FAIRY},
+		.catchRate	= 45,
+		.expYield	= 253,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 0,
+		.evYield_Speed	= 0,
+		.evYield_SpAttack	= 1,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(0),
+		.eggCycles = 20,
+		.friendship = 255,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = {EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE},
+		.abilities = {ABILITY_INSOMNIA, ABILITY_INSOMNIA},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_RED,
+		.noFlip = FALSE
+	}
 };

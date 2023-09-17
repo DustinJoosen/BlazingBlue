@@ -1,0 +1,82 @@
+
+POKEMON_NAME                = "Fernoquartz"
+CATEGORY_NAME               = "QUARTZ"
+HEIGHT                      = 2.05
+WEIGHT                      = 380
+
+POKEMON_SCALE               = 320
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "False"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 32
+EVOLUTION_SPECIES           = "FERNOQUARTZ"
+
+POKEDEX_TEXT                = {
+    Fernoquartz exist mostly of amethyst, and
+    is very resistent to damage. When threatened,
+    their arms can heat up to a temperature of 5000
+    degrees, slicing through any threat
+}
+
+TYPE_1                      = "FIRE"
+TYPE_2                      = "ROCK"
+
+BASE_HP                     = 105
+BASE_ATTACK                 = 65
+BASE_DEFENSE                = 90
+BASE_SP_ATTACK              = 75
+BASE_SP_DEFENSE             = 135
+BASE_SPEED                  = 40
+
+CATCH_RATE                  = 50
+EXP_YIELD                   = 255
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(50)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_SLOW"
+BODY_COLOR                  = "PURPLE"
+
+EGG_CYCLES                  = 20
+EGG_GROUP_1                 = "EGG_GROUP_MINERAL"
+EGG_GROUP_2                 = "EGG_GROUP_MINERAL"
+
+ABILITY_1                   = "ROCK_HEAD"
+ABILITY_2                   = "FLAME_BODY"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 0
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 3
+
+LEARNED_MOVES = {
+    6="EMBER",
+    11="ROCK_THROW",
+    16="FIRE_SPIN",
+    22="FLAME_WHEEL",
+    27="ROCK_SLIDE",
+    32="ANCIENT_POWER",
+    36="HEAT_WAVE"
+}
+
+40 - EARTHQUAKE (100 Power)
+45 - FIRE_PUNCH (75 Power)
+50 - STONE_EDGE (100 Power)
+55 - ERUPTION (150 Power)
+60 - SOLAR_BEAM (120 Power)
+65 - FIRE_BLAST (110 Power)
+70 - FLAMETHROWER (90 Power)
+75 - EXPLOSION (250 Power)
+80 - ROCK_SLIDE (75 Power)
+
+ALLOWED_TMS_AND_HMS = {
+    "SUNNY_DAY",
+    "PROTECT",
+    "DIG",
+    "FLAMETHROWER",
+    "FIRE_BLAST",
+    "ROCK_TOMB",
+    "OVERHEAT"
+}
+

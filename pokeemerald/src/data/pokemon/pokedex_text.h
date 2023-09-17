@@ -2376,6 +2376,13 @@ const u8 gOrbeetlePokedexText[] = _(
 	"miles away.\n"
 );
 
+const u8 gImpidimpPokedexText[] = _(
+	"It sneaks into people’s homes,\n"
+	"stealing things and feasting\n"
+	"on the negative energy of the\n"
+	"frustrated occupants.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

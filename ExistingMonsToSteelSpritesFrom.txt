@@ -11,7 +11,7 @@ Squirtle        SPRITE          CRY         DATA        DONE
 Lilipup         SPRITE          CRY
 Herdier         SPRITE          CRY
 Stoutland       SPRITE          CRY
-Impidimp        SPRITE          CRY         DATA
+Impidimp        SPRITE          CRY         DATA        DONE
 Morgrem         SPRITE          CRY
 Grimmsnarl      SPRITE          CRY
 Joltik          SPRITE          CRY         DATA        DONE

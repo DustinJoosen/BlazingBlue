@@ -422,5 +422,6 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_BLIPBUG] = gMonFootprint_Blipbug,
 	[SPECIES_DOTTLER] = gMonFootprint_Dottler,
 	[SPECIES_ORBEETLE] = gMonFootprint_Orbeetle,
+	[SPECIES_IMPIDIMP] = gMonFootprint_Impidimp,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

@@ -10239,6 +10239,15 @@ const union {
 		.ATTRACT = TRUE,
 		.FACADE = TRUE,
 	}},
+	[SPECIES_IMPIDIMP] = { .learnset = {
+		.PROTECT = TRUE,
+		.THIEF = TRUE,
+		.FACADE = TRUE,
+		.REFLECT = TRUE,
+		.LIGHT_SCREEN = TRUE,
+		.REST = TRUE,
+		.TAUNT = TRUE,
+	}},
     [SPECIES_CHIMECHO] = { .learnset = {
         .CALM_MIND = TRUE,
         .TOXIC = TRUE,

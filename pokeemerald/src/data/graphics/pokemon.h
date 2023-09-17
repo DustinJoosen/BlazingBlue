@@ -2768,6 +2768,13 @@ const u32 gMonShinyPalette_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/sh
 const u32 gMonIcon_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/icon.4bpp");
 const u32 gMonFootprint_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/front.4bpp.lz");
+const u32 gMonPalette_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/normal.gbapal.lz");
+const u32 gMonBackPic_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/back.4bpp.lz");
+const u32 gMonShinyPalette_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/shiny.gbapal.lz");
+const u32 gMonIcon_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/icon.4bpp");
+const u32 gMonFootprint_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 
