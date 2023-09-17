@@ -179,6 +179,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
     EC_MOVE2(BLAZE_KICK),
     EC_POKEMON(BLAZIKEN),
     EC_WORD_BLEND,
+    EC_POKEMON(BLIPBUG),
     EC_POKEMON_NATIONAL(BLISSEY),
     EC_MOVE2(BLIZZARD),
     EC_MOVE2(BLOCK),
@@ -392,6 +393,7 @@ const u16 gEasyChatWordsByLetter_D[] = {
     EC_POKEMON_NATIONAL(DONPHAN),
     EC_MOVE2(DOOM_DESIRE),
     EC_MOVE2(DOUBLE_KICK),
+    EC_POKEMON(DOTTLER),
     EC_MOVE(DOUBLE_TEAM),
     EC_MOVE(DOUBLE_EDGE),
     EC_MOVE(DOUBLE_SLAP),
@@ -568,6 +570,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
 };
 
 const u16 gEasyChatWordsByLetter_G[] = {
+    EC_POKEMON(GALVANTULA),
     EC_WORD_GAME,
     EC_POKEMON(GARDEVOIR),
     EC_POKEMON_NATIONAL(GASTLY),
@@ -1166,6 +1169,7 @@ const u16 gEasyChatWordsByLetter_O[] = {
     EC_WORD_OPPONENT,
     EC_WORD_OPPOSITE,
     EC_WORD_OR,
+    EC_POKEMON(ORBEETLE),
     EC_WORD_OTHER,
     EC_WORD_OUR,
     EC_WORD_OUT,

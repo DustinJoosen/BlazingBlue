@@ -4622,6 +4622,34 @@ static const union AnimCmd sAnim_Joltik_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Galvantula_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Blipbug_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dottler_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Orbeetle_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5269,6 +5297,10 @@ SINGLE_ANIMATION(Toxel);
 SINGLE_ANIMATION(Toxtricity);
 SINGLE_ANIMATION(Piplup);
 SINGLE_ANIMATION(Joltik);
+SINGLE_ANIMATION(Galvantula);
+SINGLE_ANIMATION(Blipbug);
+SINGLE_ANIMATION(Dottler);
+SINGLE_ANIMATION(Orbeetle);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5718,6 +5750,10 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_TOXTRICITY]         = sAnims_Toxtricity,
 	[SPECIES_PIPLUP]         = sAnims_Piplup,
 	[SPECIES_JOLTIK]         = sAnims_Joltik,
+	[SPECIES_GALVANTULA]         = sAnims_Galvantula,
+	[SPECIES_BLIPBUG]         = sAnims_Blipbug,
+	[SPECIES_DOTTLER]         = sAnims_Dottler,
+	[SPECIES_ORBEETLE]         = sAnims_Orbeetle,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

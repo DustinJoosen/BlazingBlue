@@ -1,13 +1,13 @@
 NAME            SPRITE          CRY         DATA
 
 
-Blipbug         SPRITE          CRY
-Dottler         SPRITE          CRY
-Orbeetle        SPRITE          CRY
+Blipbug         SPRITE          CRY         DATA
+Dottler         SPRITE          CRY         DATA
+Orbeetle        SPRITE          CRY         DATA
 Piplup          SPRITE          CRY         DATA
 Mareanie        SPRITE          CRY
 Toxapex         SPRITE          CRY
-Squirtle        SPRITE          CRY
+Squirtle        SPRITE          CRY         DATA
 Lilipup         SPRITE          CRY
 Herdier         SPRITE          CRY
 Stoutland       SPRITE          CRY
@@ -15,7 +15,7 @@ Impidimp        SPRITE          CRY
 Morgrem         SPRITE          CRY
 Grimmsnarl      SPRITE          CRY
 Joltik          SPRITE          CRY         DATA
-Galvantula      SPRITE          CRY
+Galvantula      SPRITE          CRY         DATA
 Frillish        SPRITE          CRY
 Jellicent       SPRITE          CRY
 Leaveon         SPRITE          CRY

@@ -2349,6 +2349,33 @@ const u8 gJoltikPokedexText[] = _(
 	"It's widely regarded as adorable.\n"
 );
 
+const u8 gGalvantulaPokedexText[] = _(
+	"They employ an electrically charged\n"
+	"web to trap their prey. While it\n"
+	"is immobilized by shock, they\n"
+	"leisurely consume it.\n"
+);
+
+const u8 gBlipbugPokedexText[] = _(
+	"Often found in gardens, this Pokemon\n"
+	"has hairs on its body that it uses\n"
+	"to assess its surroundings.\n"
+);
+
+const u8 gDottlerPokedexText[] = _(
+	"As it grows inside its shell,\n"
+	"it uses its psychic abilities\n"
+	"to monitor the outside world \n"
+	"and prepare for evolution.\n"
+);
+
+const u8 gOrbeetlePokedexText[] = _(
+	"It emits psychic energy to observe\n"
+	"and study what's around it'and what's\n"
+	"around it can include things over six\n"
+	"miles away.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

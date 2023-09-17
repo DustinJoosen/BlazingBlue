@@ -4692,6 +4692,54 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_GALVANTULA] = 
+	{
+		.categoryName = _("ELESPIDER"),
+		.height = 0.8,
+		.weight = 14.3,
+		.description = gGalvantulaPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_BLIPBUG] = 
+	{
+		.categoryName = _("LARVA"),
+		.height = 0.4,
+		.weight = 8.0,
+		.description = gBlipbugPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_DOTTLER] = 
+	{
+		.categoryName = _("RADOME"),
+		.height = 0.4,
+		.weight = 19.5,
+		.description = gDottlerPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_ORBEETLE] = 
+	{
+		.categoryName = _("SEVEN SPOT"),
+		.height = 0.4,
+		.weight = 40.8,
+		.description = gOrbeetlePokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

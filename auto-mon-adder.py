@@ -1,14 +1,14 @@
 
 # Constants based on the new mon.
 
-NAME = "Joltik"
+NAME = "Orbeetle"
 LOWER_NAME = NAME.lower()
 UPPER_NAME = NAME.upper()
 
-CATEGORY_NAME = "ATTACHING"
-HEIGHT = 0.1
-WEIGHT = 0.6
-POKEMON_SCALE = 8
+CATEGORY_NAME = "SEVEN SPOT"
+HEIGHT = 0.4
+WEIGHT = 40.8
+POKEMON_SCALE = 128
 POKEMON_OFFSET = 0
 TRAINER_SCALE = 290
 TRAINER_OFFSET = 2
@@ -16,69 +16,71 @@ TRAINER_OFFSET = 2
 EVOLUTION = ["EVO_LEVEL", 30, "SPECIES_DITTO"]
 
 POKEDEX_TEXT = [
-    "Prefers cold climes and appears along coasts.",
-    "It's an adorable little thing—as cute as",
-    "any child—but it's also prideful, unwilling",
-    "to accept handouts from people."
+    "It emits psychic energy to observe",
+    "and study what's around it—and what's",
+    "around it can include things over six",
+    "miles away."
 ]
 
 LEARNED_MOVES = [
-    [1, "MOVE_ABSORB"],
-    [1, "MOVE_FURY_CUTTER"],
-    [4, "MOVE_SPARK"],
-    [8, "MOVE_PIN_MISSILE"],
-    [12, "MOVE_STRING_SHOT"],
-    [16, "MOVE_THUNDER_WAVE"],
-    [24, "MOVE_AGILITY"],
-    [28, "MOVE_BITE"],
-    [32, "MOVE_SLASH"],
-    [37, "MOVE_THUNDER_PUNCH"],
-    [40, "MOVE_SCREECH"],
-    [44, "MOVE_ACID"]
+    [1, "MOVE_CONFUSION"],
+    [1, "MOVE_LIGHT_SCREEN"],
+    [1, "MOVE_REFLECT"],
+    [1, "MOVE_PIN_MISSILE"],
+    [4, "MOVE_CONFUSE_RAY"],
+    [8, "MOVE_MAGIC_COAT"],
+    [12, "MOVE_AGILITY"],
+    [16, "MOVE_PSYBEAM"],
+    [20, "MOVE_HYPNOSIS"],
+    [32, "MOVE_MIRROR_COAT"],
+    [36, "MOVE_PSYCHIC"],
+    [44, "MOVE_CALM_MIND"],
 ]
 
 ALLOWED_TMS_AND_HMS = [
+    "HYPER_BEAM",
+    "SOLAR_BEAM",
     "LIGHT_SCREEN",
+    "REFLECT",
+    "SAFEGUARD",
     "REST",
-    "THIEF",
     "PROTECT",
     "GIGA_DRAIN",
     "ATTRACT",
-    "RAIN_DANCE",
     "FACADE",
 ]
-
 SPECIES_INFO = {
-    "base_hp": 50,
-    "base_attack": 47,
-    "base_defense": 50,
-    "base_sp_attack": 57,
-    "base_sp_defence": 50,
-    "base_speed": 65,
+    "base_hp": 60,
+    "base_attack": 45,
+    "base_defense": 110,
+    "base_sp_attack": 80,
+    "base_sp_defence": 120,
+    "base_speed": 90,
     "type_1": "TYPE_BUG",
-    "type_2": "TYPE_ELECTRIC",
-    "catch_rate": 190,
-    "exp_yield": 64,
+    "type_2": "TYPE_PSYCHIC",
+    "catch_rate": 45,
+    "exp_yield": 253,
     "ev_yield_hp": 0,
     "ev_yield_attack": 0,
     "ev_yield_defense": 0,
-    "ev_yield_speed": 1,
+    "ev_yield_speed": 0,
     "ev_yield_sp_attack": 0,
-    "ev_yield_sp_defense": 0,
-    "item_common": "ITEM_NONE",
-    "item_rare": "ITEM_NONE",
-    "gender_ratio": "PERCENT_FEMALE(50)",    #50-50
-    "egg_cycles": 20,
+    "ev_yield_sp_defense": 3,
+    "gender_ratio": "PERCENT_FEMALE(50)",
+    "egg_cycles": 15,
     "friendship": 50,
     "growth_rate": "GROWTH_MEDIUM_FAST",
     "egg_group_1": "EGG_GROUP_BUG",
     "egg_group_2": "EGG_GROUP_BUG",
-    "ability_1": "ABILITY_COMPOUND_EYES",
-    "ability_2": "ABILITY_COMPOUND_EYES",
+    "ability_1": "ABILITY_SWARM",
+    "ability_2": "ABILITY_SWARM",
+    "body_color": "BODY_COLOR_RED",
     "safari_zone_flee_rate": 0,
-    "body_color": "BODY_COLOR_YELLOW",
-    "no_flip": "FALSE"
+    "no_flip": "FALSE",
+    "item_common": "ITEM_NONE",
+    "item_rare": "ITEM_NONE"
 }
+
 
 # Handy functions
 
@@ -255,7 +257,7 @@ def update_tables_3():
 
 def update_tables_4():
     # Generate text
-    text = f"\tSPECIES_SPRITE({UPPER_NAME}, gMonStillFrontPic_{NAME}),\n"
+    text = f"\tSPECIES_SPRITE({UPPER_NAME}, gMonBackPic_{NAME}),\n"
 
     # Add to file
     trigger_line = "SPECIES_SPRITE(EGG, gMonStillFrontPic_Egg),"

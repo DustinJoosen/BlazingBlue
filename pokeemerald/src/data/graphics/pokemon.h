@@ -2740,6 +2740,34 @@ const u32 gMonShinyPalette_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/shiny.
 const u32 gMonIcon_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/icon.4bpp");
 const u32 gMonFootprint_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/front.4bpp.lz");
+const u32 gMonPalette_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/normal.gbapal.lz");
+const u32 gMonBackPic_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/back.4bpp.lz");
+const u32 gMonShinyPalette_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/shiny.gbapal.lz");
+const u32 gMonIcon_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/icon.4bpp");
+const u32 gMonFootprint_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/front.4bpp.lz");
+const u32 gMonPalette_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/normal.gbapal.lz");
+const u32 gMonBackPic_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/back.4bpp.lz");
+const u32 gMonShinyPalette_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/shiny.gbapal.lz");
+const u32 gMonIcon_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/icon.4bpp");
+const u32 gMonFootprint_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/front.4bpp.lz");
+const u32 gMonPalette_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/normal.gbapal.lz");
+const u32 gMonBackPic_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/back.4bpp.lz");
+const u32 gMonShinyPalette_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/shiny.gbapal.lz");
+const u32 gMonIcon_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/icon.4bpp");
+const u32 gMonFootprint_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/front.4bpp.lz");
+const u32 gMonPalette_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/normal.gbapal.lz");
+const u32 gMonBackPic_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/back.4bpp.lz");
+const u32 gMonShinyPalette_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/shiny.gbapal.lz");
+const u32 gMonIcon_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/icon.4bpp");
+const u32 gMonFootprint_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

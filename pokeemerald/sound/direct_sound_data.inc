@@ -1939,6 +1939,22 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Orbeetle::
+	.incbin "sound/direct_sound_samples/cries/orbeetle.bin"
+
+	.align 2
+Cry_Dottler::
+	.incbin "sound/direct_sound_samples/cries/dottler.bin"
+
+	.align 2
+Cry_Blipbug::
+	.incbin "sound/direct_sound_samples/cries/blipbug.bin"
+
+	.align 2
+Cry_Galvantula::
+	.incbin "sound/direct_sound_samples/cries/galvantula.bin"
+
+	.align 2
 Cry_Joltik::
 	.incbin "sound/direct_sound_samples/cries/joltik.bin"
 

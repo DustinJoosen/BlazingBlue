@@ -399,6 +399,10 @@ const u32 gMonFrontPic_Toxel[] = INCBIN_U32("graphics/pokemon/toxel/anim_front.4
 const u32 gMonFrontPic_Toxtricity[] = INCBIN_U32("graphics/pokemon/toxtricity/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Piplup[] = INCBIN_U32("graphics/pokemon/piplup/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Joltik[] = INCBIN_U32("graphics/pokemon/joltik/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Galvantula[] = INCBIN_U32("graphics/pokemon/galvantula/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Blipbug[] = INCBIN_U32("graphics/pokemon/blipbug/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Dottler[] = INCBIN_U32("graphics/pokemon/dottler/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Orbeetle[] = INCBIN_U32("graphics/pokemon/orbeetle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonFrontPic_UnownB[] = INCBIN_U32("graphics/pokemon/unown/b/anim_front.4bpp.lz");
