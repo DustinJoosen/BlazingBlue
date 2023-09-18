@@ -11,7 +11,7 @@ LittlerootTown_ProfessorCherrysLab_EventScript_BallDefault::
 ProfessorCherrysLab_EventScript_Professor::
 	lockall
 	faceplayer
-	msgbox ProfessorCherrysLab_EventScript_Professor_Text_0, MSGBOX_YESNO
+	msgbox ProfessorCherrysLab_EventScript_Professor_Text_0
 	releaseall
 	return
 
@@ -44,6 +44,7 @@ ProfessorCherrysLab_EventScript_Pokeball_5:
 	msgbox ProfessorCherrysLab_EventScript_Pokeball_Text_1
 	removeobject 1
 	setflag FLAG_UNUSED_0x020
+	setflag FLAG_SYS_POKEMON_GET
 	call NicknamePartyMon
 	goto ProfessorCherrysLab_EventScript_Pokeball_1
 
@@ -52,6 +53,7 @@ ProfessorCherrysLab_EventScript_Pokeball_6:
 	msgbox ProfessorCherrysLab_EventScript_Pokeball_Text_1
 	removeobject 1
 	setflag FLAG_UNUSED_0x020
+	setflag FLAG_SYS_POKEMON_GET
 	call NicknameBoxMon
 	goto ProfessorCherrysLab_EventScript_Pokeball_1
 
@@ -84,7 +86,7 @@ NicknameBoxMon_2:
 
 
 ProfessorCherrysLab_EventScript_Professor_Text_0:
-	.string "Do you wanna swap the starters?$"
+	.string "Go ahead and grab this Bodilad. Good luck on your journey!$"
 
 ProfessorCherrysLab_EventScript_Pokeball_Text_0:
 	.string "Do you want to choose Bodilad?$"
