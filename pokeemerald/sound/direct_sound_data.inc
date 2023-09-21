@@ -1939,6 +1939,14 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Grimmsnarl::
+	.incbin "sound/direct_sound_samples/cries/grimmsnarl.bin"
+
+	.align 2
+Cry_Morgrem::
+	.incbin "sound/direct_sound_samples/cries/morgrem.bin"
+
+	.align 2
 Cry_Stoutland::
 	.incbin "sound/direct_sound_samples/cries/stoutland.bin"
 

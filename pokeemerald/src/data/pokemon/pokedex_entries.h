@@ -4812,6 +4812,30 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_MORGREM] = 
+	{
+		.categoryName = _("DEVIOUS"),
+		.height = 0.8,
+		.weight = 12.5,
+		.description = gMorgremPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_GRIMMSNARL] = 
+	{
+		.categoryName = _("BULKUP"),
+		.height = 1.5,
+		.weight = 61.0,
+		.description = gGrimmsnarlPokedexText,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

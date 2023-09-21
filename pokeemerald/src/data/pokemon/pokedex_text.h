@@ -2418,6 +2418,20 @@ const u8 gStoutlandPokedexText[] = _(
 	"parents even trust it to babysit.\n"
 );
 
+const u8 gMorgremPokedexText[] = _(
+	"With sly cunning, it tries to\n"
+	"lure people into the woods.\n"
+	"Some believe it to have the\n"
+	"power to make crops grow.\n"
+);
+
+const u8 gGrimmsnarlPokedexText[] = _(
+	"Its hairs work like muscle\n"
+	"fibers. When its hairs unfurl,\n"
+	"they latch on to opponents,\n"
+	"ensnaring them as tentacles would.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

@@ -2810,6 +2810,20 @@ const u32 gMonShinyPalette_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/
 const u32 gMonIcon_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/icon.4bpp");
 const u32 gMonFootprint_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/front.4bpp.lz");
+const u32 gMonPalette_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/normal.gbapal.lz");
+const u32 gMonBackPic_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/back.4bpp.lz");
+const u32 gMonShinyPalette_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/shiny.gbapal.lz");
+const u32 gMonIcon_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/icon.4bpp");
+const u32 gMonFootprint_Morgrem[] = INCBIN_U32("graphics/pokemon/morgrem/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/front.4bpp.lz");
+const u32 gMonPalette_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/normal.gbapal.lz");
+const u32 gMonBackPic_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/back.4bpp.lz");
+const u32 gMonShinyPalette_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/shiny.gbapal.lz");
+const u32 gMonIcon_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/icon.4bpp");
+const u32 gMonFootprint_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

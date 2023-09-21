@@ -85,32 +85,32 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_LILLIPUP"
+                "species": "SPECIES_GRIMMSNARL"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_HERDIER"
+                "species": "SPECIES_GRIMMSNARL"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_STOUTLAND"
+                "species": "SPECIES_MORGREM"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_STOUTLAND"
+                "species": "SPECIES_MORGREM"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MAREANIE"
+                "species": "SPECIES_IMPIDIMP"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_TOXAPEX"
+                "species": "SPECIES_IMPIDIMP"
               },
               {
                 "min_level": 3,
