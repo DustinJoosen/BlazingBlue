@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 40
-EVOLUTION_SPECIES           = "Jellicent"
+EVOLUTION_SPECIES           = "SPECIES_JELLICENT"
 
 POKEDEX_TEXT                = {
     If its veil-like arms stun and

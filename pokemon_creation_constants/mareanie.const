@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 38
-EVOLUTION_SPECIES           = "TOXAPEX"
+EVOLUTION_SPECIES           = "SPECIES_TOXAPEX"
 
 POKEDEX_TEXT                = {
     It plunges the poison spike on its

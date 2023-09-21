@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 20
-EVOLUTION_SPECIES           = "Swadloon"
+EVOLUTION_SPECIES           = "SPECIES_SWADLOON"
 
 POKEDEX_TEXT                = {
     This Pokémon makes clothes for

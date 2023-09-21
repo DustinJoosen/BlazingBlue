@@ -4776,6 +4776,42 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_LILLIPUP] = 
+	{
+		.categoryName = _("PUPPY"),
+		.height = 0.4,
+		.weight = 4.1,
+		.description = gLillipupPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_HERDIER] = 
+	{
+		.categoryName = _("LOYALDOG"),
+		.height = 0.9,
+		.weight = 14.7,
+		.description = gHerdierPokedexText,
+		.pokemonScale = 108,
+		.pokemonOffset = 0,
+		.trainerScale = 108,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_STOUTLAND] = 
+	{
+		.categoryName = _("BIGHEARTHED"),
+		.height = 1.2,
+		.weight = 61.0,
+		.description = gStoutlandPokedexText,
+		.pokemonScale = 164,
+		.pokemonOffset = 0,
+		.trainerScale = 164,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

@@ -1939,6 +1939,18 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Stoutland::
+	.incbin "sound/direct_sound_samples/cries/stoutland.bin"
+
+	.align 2
+Cry_Herdier::
+	.incbin "sound/direct_sound_samples/cries/herdier.bin"
+
+	.align 2
+Cry_Lillipup::
+	.incbin "sound/direct_sound_samples/cries/lillipup.bin"
+
+	.align 2
 Cry_Toxapex::
 	.incbin "sound/direct_sound_samples/cries/toxapex.bin"
 

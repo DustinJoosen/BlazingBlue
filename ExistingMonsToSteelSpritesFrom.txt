@@ -8,9 +8,9 @@ Piplup          SPRITE          CRY         DATA        DONE
 Mareanie        SPRITE          CRY         DATA        DONE
 Toxapex         SPRITE          CRY         DATA        DONE
 Squirtle        SPRITE          CRY         DATA        DONE
-Lilipup         SPRITE          CRY         DATA
-Herdier         SPRITE          CRY         DATA
-Stoutland       SPRITE          CRY         DATA
+Lilipup         SPRITE          CRY         DATA        DONE
+Herdier         SPRITE          CRY         DATA        DONE
+Stoutland       SPRITE          CRY         DATA        DONE
 Impidimp        SPRITE          CRY         DATA        DONE
 Morgrem         SPRITE          CRY         DATA
 Grimmsnarl      SPRITE          CRY         DATA

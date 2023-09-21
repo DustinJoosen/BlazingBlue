@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 32
-EVOLUTION_SPECIES           = "STOUTLAND"
+EVOLUTION_SPECIES           = "SPECIES_STOUTLAND"
 
 POKEDEX_TEXT                = {
     Its dense black fur grows continuously.

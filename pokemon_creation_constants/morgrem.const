@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 42
-EVOLUTION_SPECIES           = "GRIMMSNARL"
+EVOLUTION_SPECIES           = "SPECIES_GRIMMSNARL"
 
 POKEDEX_TEXT                = {
     With sly cunning, it tries to

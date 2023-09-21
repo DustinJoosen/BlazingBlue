@@ -2397,6 +2397,27 @@ const u8 gToxapexPokedexText[] = _(
 	"there will be some aftereffects.\n"
 );
 
+const u8 gLillipupPokedexText[] = _(
+	"Because it doesn’t yelp,\n"
+	"it’s extremely popular\n"
+	"with Trainers who live\n"
+	"in apartment buildings.\n"
+);
+
+const u8 gHerdierPokedexText[] = _(
+	"Its dense black fur grows continuously.\n"
+	"The high cost of keeping its hard fur\n"
+	"properly groomed makes this a\n"
+	"troublesome Pokémon to train.\n"
+);
+
+const u8 gStoutlandPokedexText[] = _(
+	"With this wise Pokémon, there\n"
+	"could be no concern that it\n"
+	"would ever attack people. Some\n"
+	"parents even trust it to babysit.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

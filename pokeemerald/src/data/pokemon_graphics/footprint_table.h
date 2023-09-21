@@ -425,5 +425,8 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_IMPIDIMP] = gMonFootprint_Impidimp,
 	[SPECIES_MAREANIE] = gMonFootprint_Mareanie,
 	[SPECIES_TOXAPEX] = gMonFootprint_Toxapex,
+	[SPECIES_LILLIPUP] = gMonFootprint_Lillipup,
+	[SPECIES_HERDIER] = gMonFootprint_Herdier,
+	[SPECIES_STOUTLAND] = gMonFootprint_Stoutland,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

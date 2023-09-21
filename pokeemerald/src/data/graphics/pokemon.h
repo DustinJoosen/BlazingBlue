@@ -2789,6 +2789,27 @@ const u32 gMonShinyPalette_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/shin
 const u32 gMonIcon_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/icon.4bpp");
 const u32 gMonFootprint_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/front.4bpp.lz");
+const u32 gMonPalette_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/normal.gbapal.lz");
+const u32 gMonBackPic_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/back.4bpp.lz");
+const u32 gMonShinyPalette_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/shiny.gbapal.lz");
+const u32 gMonIcon_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/icon.4bpp");
+const u32 gMonFootprint_Lillipup[] = INCBIN_U32("graphics/pokemon/lillipup/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/front.4bpp.lz");
+const u32 gMonPalette_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/normal.gbapal.lz");
+const u32 gMonBackPic_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/back.4bpp.lz");
+const u32 gMonShinyPalette_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/shiny.gbapal.lz");
+const u32 gMonIcon_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/icon.4bpp");
+const u32 gMonFootprint_Herdier[] = INCBIN_U32("graphics/pokemon/herdier/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/front.4bpp.lz");
+const u32 gMonPalette_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/normal.gbapal.lz");
+const u32 gMonBackPic_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/back.4bpp.lz");
+const u32 gMonShinyPalette_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/shiny.gbapal.lz");
+const u32 gMonIcon_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/icon.4bpp");
+const u32 gMonFootprint_Stoutland[] = INCBIN_U32("graphics/pokemon/stoutland/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

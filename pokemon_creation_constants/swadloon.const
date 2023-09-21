@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_FRIENDSHIP"
 EVOLUTION_CRITERIA          = 0
-EVOLUTION_SPECIES           = "Leavanny"
+EVOLUTION_SPECIES           = "SPECIES_LEAVANNY"
 
 POKEDEX_TEXT                = {
     Forests where Swadloon live

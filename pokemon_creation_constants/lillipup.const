@@ -10,7 +10,7 @@ TRAINER_SCALE               = 290
 HAS_EVOLUTION               = "True"
 EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 16
-EVOLUTION_SPECIES           = "HERDIER"
+EVOLUTION_SPECIES           = "SPECIES_HERDIER"
 
 POKEDEX_TEXT                = {
     Because it doesn’t yelp,

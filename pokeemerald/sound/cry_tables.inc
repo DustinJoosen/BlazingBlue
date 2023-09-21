@@ -388,6 +388,9 @@ gCryTable::
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
+	cry Cry_Stoutland
+	cry Cry_Herdier
+	cry Cry_Lillipup
 	cry Cry_Toxapex
 	cry Cry_Mareanie
 	cry Cry_Impidimp
@@ -792,6 +795,9 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Chimecho
+	cry_reverse Cry_Stoutland
+	cry_reverse Cry_Herdier
+	cry_reverse Cry_Lillipup
 	cry_reverse Cry_Toxapex
 	cry_reverse Cry_Mareanie
 	cry_reverse Cry_Impidimp
