@@ -710,5 +710,4 @@ add_cry_id()
 add_evolution()
 warn_left_todos()
 
-
 #TODO: Fix problem where an apostroph in dex_text is unown (Toxel's)

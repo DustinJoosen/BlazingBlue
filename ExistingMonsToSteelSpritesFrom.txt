@@ -5,26 +5,26 @@ Blipbug         SPRITE          CRY         DATA        DONE
 Dottler         SPRITE          CRY         DATA        DONE
 Orbeetle        SPRITE          CRY         DATA        DONE
 Piplup          SPRITE          CRY         DATA        DONE
-Mareanie        SPRITE          CRY
-Toxapex         SPRITE          CRY
+Mareanie        SPRITE          CRY         DATA
+Toxapex         SPRITE          CRY         DATA
 Squirtle        SPRITE          CRY         DATA        DONE
-Lilipup         SPRITE          CRY
-Herdier         SPRITE          CRY
-Stoutland       SPRITE          CRY
+Lilipup         SPRITE          CRY         DATA
+Herdier         SPRITE          CRY         DATA
+Stoutland       SPRITE          CRY         DATA
 Impidimp        SPRITE          CRY         DATA        DONE
-Morgrem         SPRITE          CRY
-Grimmsnarl      SPRITE          CRY
+Morgrem         SPRITE          CRY         DATA
+Grimmsnarl      SPRITE          CRY         DATA
 Joltik          SPRITE          CRY         DATA        DONE
 Galvantula      SPRITE          CRY         DATA        DONE
-Frillish        SPRITE          CRY
-Jellicent       SPRITE          CRY
-Leaveon         SPRITE          CRY
-Glaceon         SPRITE          CRY
-Sylveon         SPRITE          CRY
-Sewaddle        SPRITE          CRY
-Swadloon        SPRITE          CRY
-Leavanny        SPRITE          CRY
-Overqwil        SPRITE          CRY
+Frillish        SPRITE          CRY         DATA
+Jellicent       SPRITE          CRY         DATA
+Leaveon         SPRITE          CRY         DATA
+Glaceon         SPRITE          CRY         DATA
+Sylveon         SPRITE          CRY         DATA
+Sewaddle        SPRITE          CRY         DATA
+Swadloon        SPRITE          CRY         DATA
+Leavanny        SPRITE          CRY         DATA
+Overqwil        SPRITE          CRY         DATA
 Toxel           SPRITE          CRY         DATA        DONE
 Toxtricity      SPRITE          CRY         DATA        DONE
 Gliscor         SPRITE          CRY

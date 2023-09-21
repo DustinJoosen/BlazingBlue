@@ -1,0 +1,73 @@
+
+POKEMON_NAME                = "Lillipup"
+CATEGORY_NAME               = "PUPPY"
+HEIGHT                      = 0.4
+WEIGHT                      = 4.1
+
+POKEMON_SCALE               = 64
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "True"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 16
+EVOLUTION_SPECIES           = "HERDIER"
+
+POKEDEX_TEXT                = {
+    Because it doesn’t yelp,
+    it’s extremely popular
+    with Trainers who live
+    in apartment buildings.
+}
+
+TYPE_1                      = "NORMAL"
+TYPE_2                      = "NORMAL"
+
+BASE_HP                     = 45
+BASE_ATTACK                 = 60
+BASE_DEFENSE                = 45
+BASE_SP_ATTACK              = 25
+BASE_SP_DEFENSE             = 45
+BASE_SPEED                  = 55
+
+CATCH_RATE                  = 120
+EXP_YIELD                   = 55
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(50)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_SLOW"
+BODY_COLOR                  = "BROWN"
+
+EGG_CYCLES                  = 15
+EGG_GROUP_1                 = "EGG_GROUP_FIELD"
+EGG_GROUP_2                 = "EGG_GROUP_FIELD"
+
+ABILITY_1                   = "VITAL_SPIRIT"
+ABILITY_2                   = "PICKUP"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 1
+EV_YIELD_DEFENSE            = 0
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+    1="LEER"
+    1="TACKLE"
+    8="BITE"
+    24="CRUNCH"
+    28="TAKE_DOWN"
+    32="HELPING_HAND"
+    36="REVERSAL"
+    40="ROAR"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "DIG"
+    "REST"
+    "PROTECT"
+    "ATTRACT"
+    "RAIN_DANCE"
+    "SUNNY_DAY"
+    "FACADE"
+    "ROCK_TOMB"
+}

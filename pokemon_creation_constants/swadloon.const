@@ -1,0 +1,70 @@
+
+POKEMON_NAME                = "Swadloon"
+CATEGORY_NAME               = "LEAF-WRAPPED"
+HEIGHT                      = 0.5
+WEIGHT                      = 7.3
+
+POKEMON_SCALE               = 64
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "True"
+EVOLUTION_METHOD            = "EVO_FRIENDSHIP"
+EVOLUTION_CRITERIA          = 0
+EVOLUTION_SPECIES           = "Leavanny"
+
+POKEDEX_TEXT                = {
+    Forests where Swadloon live
+    have superb foliage because
+    the nutrients they make from
+    fallen leaves nourish the plant life.
+}
+
+TYPE_1                      = "BUG"
+TYPE_2                      = "GRASS"
+
+BASE_HP                     = 55
+BASE_ATTACK                 = 63
+BASE_DEFENSE                = 90
+BASE_SP_ATTACK              = 50
+BASE_SP_DEFENSE             = 80
+BASE_SPEED                  = 42
+
+CATCH_RATE                  = 120
+EXP_YIELD                   = 133
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(50)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_SLOW"
+BODY_COLOR                  = "GREEN"
+
+EGG_CYCLES                  = 15
+EGG_GROUP_1                 = "EGG_GROUP_BUG"
+EGG_GROUP_2                 = "EGG_GROUP_BUG"
+
+ABILITY_1                   = "SWARM"
+ABILITY_2                   = "CHLOROPHYLL"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 2
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+    1="RAZOR_LEAF"
+    1="STRING_SHOT"
+    1="TACKLE"
+    29="ENDURE"
+    43="FLAIL"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "PROTECT"
+    "FACADE"
+    "SUNNY_DAY"
+    "RAIN_DANCE"
+    "LIGHT_SCREEN"
+    "REST"
+    "GIGA_DRAIN"
+    "SOLAR_BEAM"
+}
