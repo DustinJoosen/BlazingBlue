@@ -4657,6 +4657,20 @@ static const union AnimCmd sAnim_Impidimp_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Mareanie_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Toxapex_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5309,6 +5323,8 @@ SINGLE_ANIMATION(Blipbug);
 SINGLE_ANIMATION(Dottler);
 SINGLE_ANIMATION(Orbeetle);
 SINGLE_ANIMATION(Impidimp);
+SINGLE_ANIMATION(Mareanie);
+SINGLE_ANIMATION(Toxapex);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5763,6 +5779,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_DOTTLER]         = sAnims_Dottler,
 	[SPECIES_ORBEETLE]         = sAnims_Orbeetle,
 	[SPECIES_IMPIDIMP]         = sAnims_Impidimp,
+	[SPECIES_MAREANIE]         = sAnims_Mareanie,
+	[SPECIES_TOXAPEX]         = sAnims_Toxapex,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

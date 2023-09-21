@@ -5,8 +5,8 @@ Blipbug         SPRITE          CRY         DATA        DONE
 Dottler         SPRITE          CRY         DATA        DONE
 Orbeetle        SPRITE          CRY         DATA        DONE
 Piplup          SPRITE          CRY         DATA        DONE
-Mareanie        SPRITE          CRY         DATA
-Toxapex         SPRITE          CRY         DATA
+Mareanie        SPRITE          CRY         DATA        DONE
+Toxapex         SPRITE          CRY         DATA        DONE
 Squirtle        SPRITE          CRY         DATA        DONE
 Lilipup         SPRITE          CRY         DATA
 Herdier         SPRITE          CRY         DATA

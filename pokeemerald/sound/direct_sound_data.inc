@@ -1939,6 +1939,14 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Toxapex::
+	.incbin "sound/direct_sound_samples/cries/toxapex.bin"
+
+	.align 2
+Cry_Mareanie::
+	.incbin "sound/direct_sound_samples/cries/mareanie.bin"
+
+	.align 2
 Cry_Impidimp::
 	.incbin "sound/direct_sound_samples/cries/impidimp.bin"
 

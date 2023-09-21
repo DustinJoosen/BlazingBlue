@@ -2383,6 +2383,20 @@ const u8 gImpidimpPokedexText[] = _(
 	"frustrated occupants.\n"
 );
 
+const u8 gMareaniePokedexText[] = _(
+	"It plunges the poison spike on its\n"
+	"head into its prey. When the prey has\n"
+	"weakened, Mareanie deals the finishing\n"
+	"blow with its 10 tentacles.\n"
+);
+
+const u8 gToxapexPokedexText[] = _(
+	"Those attacked by Toxapex’s poison\n"
+	"will suffer intense pain for three\n"
+	"days and three nights. Post-recovery,\n"
+	"there will be some aftereffects.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

@@ -11985,4 +11985,62 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.bodyColor = BODY_COLOR_RED,
 		.noFlip = FALSE
 	}
+	,[SPECIES_MAREANIE] = 
+	{
+		.baseHP	= 50,
+		.baseAttack	= 53,
+		.baseDefense	= 62,
+		.baseSpeed	= 45,
+		.baseSpAttack	= 43,
+		.baseSpDefense	= 52,
+		.types = { TYPE_POISON, TYPE_WATER},
+		.catchRate	= 190,
+		.expYield	= 61,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 1,
+		.evYield_Speed	= 0,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_1},
+		.abilities = {ABILITY_LIMBER, ABILITY_LIMBER},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_BLUE,
+		.noFlip = FALSE
+	}
+	,[SPECIES_TOXAPEX] = 
+	{
+		.baseHP	= 50,
+		.baseAttack	= 63,
+		.baseDefense	= 152,
+		.baseSpeed	= 35,
+		.baseSpAttack	= 53,
+		.baseSpDefense	= 142,
+		.types = { TYPE_POISON, TYPE_WATER},
+		.catchRate	= 75,
+		.expYield	= 173,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 2,
+		.evYield_Speed	= 0,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_WATER_1},
+		.abilities = {ABILITY_LIMBER, ABILITY_LIMBER},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_BLUE,
+		.noFlip = FALSE
+	}
 };

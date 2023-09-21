@@ -427,6 +427,8 @@ const struct MonCoords gMonBackPicCoords[] =
 	[SPECIES_DOTTLER]   = { .size = 0x88, .y_offset =  10 },
 	[SPECIES_ORBEETLE]   = { .size = 0x88, .y_offset =  10 },
     [SPECIES_IMPIDIMP]    = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
+	[SPECIES_MAREANIE]   = { .size = 0x88, .y_offset =  10 },
+	[SPECIES_TOXAPEX]   = { .size = 0x88, .y_offset =  10 },
     [SPECIES_EGG]         = { .size = MON_COORDS_SIZE(24, 48), .y_offset = 10 },
     [SPECIES_UNOWN_B]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset =  9 },
     [SPECIES_UNOWN_C]     = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  6 },

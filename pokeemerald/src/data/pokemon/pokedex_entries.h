@@ -4752,6 +4752,30 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_MAREANIE] = 
+	{
+		.categoryName = _("BRUTALSTAR"),
+		.height = 0.4,
+		.weight = 8.0,
+		.description = gMareaniePokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_TOXAPEX] = 
+	{
+		.categoryName = _("BRUTALSTAR"),
+		.height = 0.7,
+		.weight = 14.5,
+		.description = gToxapexPokedexText,
+		.pokemonScale = 95,
+		.pokemonOffset = 0,
+		.trainerScale = 95,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

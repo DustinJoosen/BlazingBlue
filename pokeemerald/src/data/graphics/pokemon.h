@@ -2775,6 +2775,20 @@ const u32 gMonShinyPalette_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/sh
 const u32 gMonIcon_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/icon.4bpp");
 const u32 gMonFootprint_Impidimp[] = INCBIN_U32("graphics/pokemon/impidimp/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/front.4bpp.lz");
+const u32 gMonPalette_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/normal.gbapal.lz");
+const u32 gMonBackPic_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/back.4bpp.lz");
+const u32 gMonShinyPalette_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/shiny.gbapal.lz");
+const u32 gMonIcon_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/icon.4bpp");
+const u32 gMonFootprint_Mareanie[] = INCBIN_U32("graphics/pokemon/mareanie/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/front.4bpp.lz");
+const u32 gMonPalette_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/normal.gbapal.lz");
+const u32 gMonBackPic_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/back.4bpp.lz");
+const u32 gMonShinyPalette_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/shiny.gbapal.lz");
+const u32 gMonIcon_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/icon.4bpp");
+const u32 gMonFootprint_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 
