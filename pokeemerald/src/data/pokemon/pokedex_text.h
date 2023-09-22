@@ -2432,6 +2432,20 @@ const u8 gGrimmsnarlPokedexText[] = _(
 	"ensnaring them as tentacles would.\n"
 );
 
+const u8 gFrillishPokedexText[] = _(
+	"If its veil-like arms stun and\n"
+	"wrap a foe, that foe will be\n"
+	"dragged miles below the surface,\n"
+	"never to return.\n"
+);
+
+const u8 gJellicentPokedexText[] = _(
+	"Its body is mostly seawater.\n"
+	"It’s said there’s a castle\n"
+	"of ships Jellicent have\n"
+	"sunk on the seafloor.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

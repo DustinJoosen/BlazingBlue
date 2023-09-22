@@ -4706,6 +4706,20 @@ static const union AnimCmd sAnim_Grimmsnarl_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Frillish_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Jellicent_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5365,6 +5379,8 @@ SINGLE_ANIMATION(Herdier);
 SINGLE_ANIMATION(Stoutland);
 SINGLE_ANIMATION(Morgrem);
 SINGLE_ANIMATION(Grimmsnarl);
+SINGLE_ANIMATION(Frillish);
+SINGLE_ANIMATION(Jellicent);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5826,6 +5842,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_STOUTLAND]         = sAnims_Stoutland,
 	[SPECIES_MORGREM]         = sAnims_Morgrem,
 	[SPECIES_GRIMMSNARL]         = sAnims_Grimmsnarl,
+	[SPECIES_FRILLISH]         = sAnims_Frillish,
+	[SPECIES_JELLICENT]         = sAnims_Jellicent,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

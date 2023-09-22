@@ -430,5 +430,7 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_STOUTLAND] = gMonFootprint_Stoutland,
 	[SPECIES_MORGREM] = gMonFootprint_Morgrem,
 	[SPECIES_GRIMMSNARL] = gMonFootprint_Grimmsnarl,
+	[SPECIES_FRILLISH] = gMonFootprint_Frillish,
+	[SPECIES_JELLICENT] = gMonFootprint_Jellicent,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

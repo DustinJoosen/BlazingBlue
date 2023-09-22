@@ -2824,6 +2824,20 @@ const u32 gMonShinyPalette_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnar
 const u32 gMonIcon_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/icon.4bpp");
 const u32 gMonFootprint_Grimmsnarl[] = INCBIN_U32("graphics/pokemon/grimmsnarl/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/front.4bpp.lz");
+const u32 gMonPalette_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/normal.gbapal.lz");
+const u32 gMonBackPic_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/back.4bpp.lz");
+const u32 gMonShinyPalette_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/shiny.gbapal.lz");
+const u32 gMonIcon_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/icon.4bpp");
+const u32 gMonFootprint_Frillish[] = INCBIN_U32("graphics/pokemon/frillish/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/front.4bpp.lz");
+const u32 gMonPalette_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/normal.gbapal.lz");
+const u32 gMonBackPic_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/back.4bpp.lz");
+const u32 gMonShinyPalette_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/shiny.gbapal.lz");
+const u32 gMonIcon_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/icon.4bpp");
+const u32 gMonFootprint_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

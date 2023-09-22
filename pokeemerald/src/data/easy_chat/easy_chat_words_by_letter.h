@@ -555,6 +555,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
     EC_MOVE2(FRENZY_PLANT),
     EC_WORD_FRIDAY,
     EC_WORD_FRIEND,
+    EC_POKEMON(FRILLISH),
     EC_WORD_FROM,
     EC_WORD_FRONT,
     EC_WORD_FRONTIER,
@@ -818,6 +819,7 @@ const u16 gEasyChatWordsByLetter_I[] = {
 
 const u16 gEasyChatWordsByLetter_J[] = {
     DOUBLE_SPECIES_NAME
+    EC_POKEMON(JELLICENT),
     EC_POKEMON(JIGGLYPUFF),
     EC_POKEMON_NATIONAL(JIGGLYPUFF),
     EC_POKEMON(JIRACHI),

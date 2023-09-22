@@ -4836,6 +4836,30 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_FRILLISH] = 
+	{
+		.categoryName = _("FLOATING"),
+		.height = 1.2,
+		.weight = 33.0,
+		.description = gFrillishPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_JELLICENT] = 
+	{
+		.categoryName = _("FLOATING"),
+		.height = 2.2,
+		.weight = 135.0,
+		.description = gJellicentPokedexText,
+		.pokemonScale = 310,
+		.pokemonOffset = 0,
+		.trainerScale = 310,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

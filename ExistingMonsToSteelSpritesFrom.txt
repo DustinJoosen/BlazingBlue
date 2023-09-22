@@ -12,12 +12,12 @@ Lilipup         SPRITE          CRY         DATA        DONE
 Herdier         SPRITE          CRY         DATA        DONE
 Stoutland       SPRITE          CRY         DATA        DONE
 Impidimp        SPRITE          CRY         DATA        DONE
-Morgrem         SPRITE          CRY         DATA
-Grimmsnarl      SPRITE          CRY         DATA
+Morgrem         SPRITE          CRY         DATA        DONE
+Grimmsnarl      SPRITE          CRY         DATA        DONE
 Joltik          SPRITE          CRY         DATA        DONE
 Galvantula      SPRITE          CRY         DATA        DONE
-Frillish        SPRITE          CRY         DATA
-Jellicent       SPRITE          CRY         DATA
+Frillish        SPRITE          CRY         DATA        DONE
+Jellicent       SPRITE          CRY         DATA        DONE
 Leaveon         SPRITE          CRY         DATA
 Glaceon         SPRITE          CRY         DATA
 Sylveon         SPRITE          CRY         DATA
