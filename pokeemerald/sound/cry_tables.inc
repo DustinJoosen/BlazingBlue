@@ -388,6 +388,13 @@ gCryTable::
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
+	cry Cry_Overqwil
+	cry Cry_Leavanny
+	cry Cry_Swadloon
+	cry Cry_Sewaddle
+	cry Cry_Sylveon
+	cry Cry_Leafeon
+	cry Cry_Glaceon
 	cry Cry_Jellicent
 	cry Cry_Frillish
 	cry Cry_Grimmsnarl
@@ -799,6 +806,13 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Chimecho
+	cry_reverse Cry_Overqwil
+	cry_reverse Cry_Leavanny
+	cry_reverse Cry_Swadloon
+	cry_reverse Cry_Sewaddle
+	cry_reverse Cry_Sylveon
+	cry_reverse Cry_Leafeon
+	cry_reverse Cry_Glaceon
 	cry_reverse Cry_Jellicent
 	cry_reverse Cry_Frillish
 	cry_reverse Cry_Grimmsnarl

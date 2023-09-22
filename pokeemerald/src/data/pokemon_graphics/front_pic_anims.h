@@ -4720,6 +4720,55 @@ static const union AnimCmd sAnim_Jellicent_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Glaceon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Leafeon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sylveon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sewaddle_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Swadloon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Leavanny_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Overqwil_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5381,6 +5430,13 @@ SINGLE_ANIMATION(Morgrem);
 SINGLE_ANIMATION(Grimmsnarl);
 SINGLE_ANIMATION(Frillish);
 SINGLE_ANIMATION(Jellicent);
+SINGLE_ANIMATION(Glaceon);
+SINGLE_ANIMATION(Leafeon);
+SINGLE_ANIMATION(Sylveon);
+SINGLE_ANIMATION(Sewaddle);
+SINGLE_ANIMATION(Swadloon);
+SINGLE_ANIMATION(Leavanny);
+SINGLE_ANIMATION(Overqwil);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5844,6 +5900,13 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_GRIMMSNARL]         = sAnims_Grimmsnarl,
 	[SPECIES_FRILLISH]         = sAnims_Frillish,
 	[SPECIES_JELLICENT]         = sAnims_Jellicent,
+	[SPECIES_GLACEON]         = sAnims_Glaceon,
+	[SPECIES_LEAFEON]         = sAnims_Leafeon,
+	[SPECIES_SYLVEON]         = sAnims_Sylveon,
+	[SPECIES_SEWADDLE]         = sAnims_Sewaddle,
+	[SPECIES_SWADLOON]         = sAnims_Swadloon,
+	[SPECIES_LEAVANNY]         = sAnims_Leavanny,
+	[SPECIES_OVERQWIL]         = sAnims_Overqwil,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

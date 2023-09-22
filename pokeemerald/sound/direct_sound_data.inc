@@ -1939,6 +1939,34 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Overqwil::
+	.incbin "sound/direct_sound_samples/cries/overqwil.bin"
+
+	.align 2
+Cry_Leavanny::
+	.incbin "sound/direct_sound_samples/cries/leavanny.bin"
+
+	.align 2
+Cry_Swadloon::
+	.incbin "sound/direct_sound_samples/cries/swadloon.bin"
+
+	.align 2
+Cry_Sewaddle::
+	.incbin "sound/direct_sound_samples/cries/sewaddle.bin"
+
+	.align 2
+Cry_Sylveon::
+	.incbin "sound/direct_sound_samples/cries/sylveon.bin"
+
+	.align 2
+Cry_Leafeon::
+	.incbin "sound/direct_sound_samples/cries/leafeon.bin"
+
+	.align 2
+Cry_Glaceon::
+	.incbin "sound/direct_sound_samples/cries/glaceon.bin"
+
+	.align 2
 Cry_Jellicent::
 	.incbin "sound/direct_sound_samples/cries/jellicent.bin"
 

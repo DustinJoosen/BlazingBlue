@@ -2838,6 +2838,55 @@ const u32 gMonShinyPalette_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/
 const u32 gMonIcon_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/icon.4bpp");
 const u32 gMonFootprint_Jellicent[] = INCBIN_U32("graphics/pokemon/jellicent/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/front.4bpp.lz");
+const u32 gMonPalette_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/normal.gbapal.lz");
+const u32 gMonBackPic_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/back.4bpp.lz");
+const u32 gMonShinyPalette_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/shiny.gbapal.lz");
+const u32 gMonIcon_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/icon.4bpp");
+const u32 gMonFootprint_Glaceon[] = INCBIN_U32("graphics/pokemon/glaceon/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/front.4bpp.lz");
+const u32 gMonPalette_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/normal.gbapal.lz");
+const u32 gMonBackPic_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/back.4bpp.lz");
+const u32 gMonShinyPalette_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/shiny.gbapal.lz");
+const u32 gMonIcon_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/icon.4bpp");
+const u32 gMonFootprint_Leafeon[] = INCBIN_U32("graphics/pokemon/leafeon/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/front.4bpp.lz");
+const u32 gMonPalette_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/normal.gbapal.lz");
+const u32 gMonBackPic_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/shiny.gbapal.lz");
+const u32 gMonIcon_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/icon.4bpp");
+const u32 gMonFootprint_Sylveon[] = INCBIN_U32("graphics/pokemon/sylveon/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/front.4bpp.lz");
+const u32 gMonPalette_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/normal.gbapal.lz");
+const u32 gMonBackPic_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/back.4bpp.lz");
+const u32 gMonShinyPalette_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/shiny.gbapal.lz");
+const u32 gMonIcon_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/icon.4bpp");
+const u32 gMonFootprint_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/front.4bpp.lz");
+const u32 gMonPalette_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/normal.gbapal.lz");
+const u32 gMonBackPic_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/back.4bpp.lz");
+const u32 gMonShinyPalette_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/shiny.gbapal.lz");
+const u32 gMonIcon_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/icon.4bpp");
+const u32 gMonFootprint_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/front.4bpp.lz");
+const u32 gMonPalette_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/normal.gbapal.lz");
+const u32 gMonBackPic_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/back.4bpp.lz");
+const u32 gMonShinyPalette_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/shiny.gbapal.lz");
+const u32 gMonIcon_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/icon.4bpp");
+const u32 gMonFootprint_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/front.4bpp.lz");
+const u32 gMonPalette_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/normal.gbapal.lz");
+const u32 gMonBackPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/back.4bpp.lz");
+const u32 gMonShinyPalette_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/shiny.gbapal.lz");
+const u32 gMonIcon_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/icon.4bpp");
+const u32 gMonFootprint_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

@@ -85,42 +85,42 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_JELLICENT"
+                "species": "SPECIES_LEAFEON"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_JELLICENT"
+                "species": "SPECIES_GLACEON"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FRILLISH"
+                "species": "SPECIES_SYLVEON"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FRILLISH"
+                "species": "SPECIES_SEWADDLE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FRILLISH"
+                "species": "SPECIES_SWADLOON"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FRILLISH"
+                "species": "SPECIES_LEAVANNY"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_BODILAD"
+                "species": "SPECIES_OVERQWIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_BODILAD"
+                "species": "SPECIES_OVERQWIL"
               },
               {
                 "min_level": 2,

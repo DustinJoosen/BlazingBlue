@@ -18,13 +18,13 @@ Joltik          SPRITE          CRY         DATA        DONE
 Galvantula      SPRITE          CRY         DATA        DONE
 Frillish        SPRITE          CRY         DATA        DONE
 Jellicent       SPRITE          CRY         DATA        DONE
-Leaveon         SPRITE          CRY         DATA
-Glaceon         SPRITE          CRY         DATA
-Sylveon         SPRITE          CRY         DATA
-Sewaddle        SPRITE          CRY         DATA
-Swadloon        SPRITE          CRY         DATA
-Leavanny        SPRITE          CRY         DATA
-Overqwil        SPRITE          CRY         DATA
+Leaveon         SPRITE          CRY         DATA        DONE
+Glaceon         SPRITE          CRY         DATA        DONE
+Sylveon         SPRITE          CRY         DATA        DONE
+Sewaddle        SPRITE          CRY         DATA        DONE        -note: back.png coords issue
+Swadloon        SPRITE          CRY         DATA        DONE
+Leavanny        SPRITE          CRY         DATA        DONE
+Overqwil        SPRITE          CRY         DATA        DONE
 Toxel           SPRITE          CRY         DATA        DONE
 Toxtricity      SPRITE          CRY         DATA        DONE
 Gliscor         SPRITE          CRY

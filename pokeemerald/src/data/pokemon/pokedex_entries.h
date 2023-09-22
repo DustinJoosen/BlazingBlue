@@ -4860,6 +4860,90 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_GLACEON] = 
+	{
+		.categoryName = _("FRESHSNOW"),
+		.height = 0.8,
+		.weight = 25.9,
+		.description = gGlaceonPokedexText,
+		.pokemonScale = 116,
+		.pokemonOffset = 0,
+		.trainerScale = 116,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_LEAFEON] = 
+	{
+		.categoryName = _("VERDANT"),
+		.height = 1.0,
+		.weight = 25.5,
+		.description = gLeafeonPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SYLVEON] = 
+	{
+		.categoryName = _("FRESHSNOW"),
+		.height = 1.0,
+		.weight = 23.5,
+		.description = gSylveonPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SEWADDLE] = 
+	{
+		.categoryName = _("SEWING"),
+		.height = 0.3,
+		.weight = 2.5,
+		.description = gSewaddlePokedexText,
+		.pokemonScale = 42,
+		.pokemonOffset = 0,
+		.trainerScale = 42,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SWADLOON] = 
+	{
+		.categoryName = _("LEAFWRAPPED"),
+		.height = 0.5,
+		.weight = 7.3,
+		.description = gSwadloonPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_LEAVANNY] = 
+	{
+		.categoryName = _("NURTURING"),
+		.height = 1.2,
+		.weight = 20.5,
+		.description = gLeavannyPokedexText,
+		.pokemonScale = 153,
+		.pokemonOffset = 0,
+		.trainerScale = 153,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_OVERQWIL] = 
+	{
+		.categoryName = _("PINCLUSTER"),
+		.height = 2.5,
+		.weight = 60.5,
+		.description = gOverqwilPokedexText,
+		.pokemonScale = 350,
+		.pokemonOffset = 0,
+		.trainerScale = 350,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

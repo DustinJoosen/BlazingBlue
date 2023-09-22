@@ -2446,6 +2446,55 @@ const u8 gJellicentPokedexText[] = _(
 	"sunk on the seafloor.\n"
 );
 
+const u8 gGlaceonPokedexText[] = _(
+	"It can control its body temperature\n"
+	"at will. This enables it to freeze\n"
+	"the moisture in the atmosphere,\n"
+	"creating flurries of diamond dust.\n"
+);
+
+const u8 gLeafeonPokedexText[] = _(
+	"With cells similar to those\n"
+	"of plants, it performs\n"
+	"photosynthesis inside its\n"
+	"body and creates pure air.\n"
+);
+
+const u8 gSylveonPokedexText[] = _(
+	"Its ribbonlike feelers give off\n"
+	"an aura that weakens hostility\n"
+	"in its prey, causing them to\n"
+	"let down their guard. Then it attacks.\n"
+);
+
+const u8 gSewaddlePokedexText[] = _(
+	"This Pokémon makes clothes for\n"
+	"itself. It chews up leaves and\n"
+	"sews them with sticky thread\n"
+	"extruded from its mouth.\n"
+);
+
+const u8 gSwadloonPokedexText[] = _(
+	"Forests where Swadloon live\n"
+	"have superb foliage because\n"
+	"the nutrients they make from\n"
+	"fallen leaves nourish the plant life.\n"
+);
+
+const u8 gLeavannyPokedexText[] = _(
+	"Upon finding a small Pokémon,\n"
+	"it weaves clothing for it\n"
+	"from leaves by using the sticky\n"
+	"silk secreted from its mouth.\n"
+);
+
+const u8 gOverqwilPokedexText[] = _(
+	"Its lancelike spikes and savage\n"
+	"temperament have earned it the\n"
+	"nickname sea fiend. It slurps\n"
+	"up poison to nourish itself.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"
