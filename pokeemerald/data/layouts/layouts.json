@@ -94,7 +94,7 @@
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
       "name": "LittlerootTown_Layout",
-      "width": 40,
+      "width": 46,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_FortreeGym",
       "border_filepath": "data/layouts/LittlerootTown_Gym/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_KNOWHERE",
+      "name": "Knowhere_Layout",
+      "width": 48,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/Knowhere/border.bin",
+      "blockdata_filepath": "data/layouts/Knowhere/map.bin"
     }
   ]
 }

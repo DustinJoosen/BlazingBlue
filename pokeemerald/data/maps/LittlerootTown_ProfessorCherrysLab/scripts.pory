@@ -10,7 +10,7 @@ script ProfessorCherrysLab_EventScript_Professor {
     lockall
     faceplayer
 
-    msgbox("Do you wanna swap the starters?", MSGBOX_YESNO)
+    msgbox("Go ahead and grab this Bodilad. Good luck on your journey!")
     releaseall
 }
 
@@ -27,6 +27,7 @@ script ProfessorCherrysLab_EventScript_Pokeball {
             msgbox("Recieved Bodilad")
             removeobject(1)
             setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_SYS_POKEMON_GET)
             call(NicknamePartyMon)
         }
         elif (var(VAR_RESULT) == MON_GIVEN_TO_PC) {
@@ -34,6 +35,7 @@ script ProfessorCherrysLab_EventScript_Pokeball {
             msgbox("Recieved Bodilad")
             removeobject(1)
             setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_SYS_POKEMON_GET)
             call(NicknameBoxMon)
         }
         else {

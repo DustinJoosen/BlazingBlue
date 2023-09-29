@@ -1,0 +1,43 @@
+mapscripts Knowhere_MapScripts { }
+
+script Knowhere_EventScript_Technology {
+    lockall
+    faceplayer
+
+    msgbox("Technology is amazing!")
+
+    releaseall
+}
+
+script Knowhere_EventScript_LoveYou {
+    lockall
+    faceplayer
+
+    msgbox("Ik ga naar bed. Love you!")
+
+    releaseall
+}
+
+script Knowhere_Sign_RivalHouse {
+    lockall
+
+    msgbox("Dylan's House")
+
+    releaseall
+}
+
+script Knowhere_Sign_PlayerHouse {
+    lockall
+
+    msgbox("Your House")
+
+    releaseall
+}
+
+script Knowhere_Sign_CherrysLab {
+   lockall
+
+   msgbox("Professor Cherry's lab")
+
+   releaseall
+}
