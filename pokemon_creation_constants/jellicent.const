@@ -1,0 +1,80 @@
+
+POKEMON_NAME                = "Jellicent"
+CATEGORY_NAME               = "FLOATING"
+HEIGHT                      = 2.2
+WEIGHT                      = 135.0
+
+POKEMON_SCALE               = 310
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "False"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 40
+EVOLUTION_SPECIES           = "Jellicent"
+
+POKEDEX_TEXT                = {
+    Its body is mostly seawater.
+    It’s said there’s a castle
+    of ships Jellicent have
+    sunk on the seafloor.
+}
+
+TYPE_1                      = "WATER"
+TYPE_2                      = "GHOST"
+
+BASE_HP                     = 100
+BASE_ATTACK                 = 60
+BASE_DEFENSE                = 70
+BASE_SP_ATTACK              = 85
+BASE_SP_DEFENSE             = 105
+BASE_SPEED                  = 60
+
+CATCH_RATE                  = 60
+EXP_YIELD                   = 168
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(50)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_FAST"
+BODY_COLOR                  = "BLUE"
+
+EGG_CYCLES                  = 20
+EGG_GROUP_1                 = "EGG_GROUP_AMORPHOUS"
+EGG_GROUP_2                 = "EGG_GROUP_AMORPHOUS"
+
+ABILITY_1                   = "WATER_ABSORB"
+ABILITY_2                   = "WATER_ABSORB"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 0
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 2
+
+LEARNED_MOVES               = {
+    1="ABSORB"
+    1="ACID_ARMOR"
+    1="WATER_GUN"
+    1="POISON_STING"
+    1="NIGHT_SHADE"
+    12="WATER_PULSE"
+    16="RAIN_DANCE"
+    28="RECOVER"
+    32="SHADOW_BALL"
+    36="WHIRLPOOL"
+    43="HYDRO_PUMP"
+    48="DESTINY_BOND"
+    54="WATER_SPOUT"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "HYPER_BEAM"
+    "SAFEGUARD"
+    "REST"
+    "PROTECT"
+    "GIGA_DRAIN"
+    "ATTRACT"
+    "RAIN_DANCE"
+    "HAIL"
+    "FACADE"
+    "DIVE"
+}

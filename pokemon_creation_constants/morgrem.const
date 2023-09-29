@@ -1,0 +1,71 @@
+
+POKEMON_NAME                = "Morgrem"
+CATEGORY_NAME               = "DEVIOUS"
+HEIGHT                      = 0.8
+WEIGHT                      = 12.5
+
+POKEMON_SCALE               = 128
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "True"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 42
+EVOLUTION_SPECIES           = "SPECIES_GRIMMSNARL"
+
+POKEDEX_TEXT                = {
+    With sly cunning, it tries to
+    lure people into the woods.
+    Some believe it to have the
+    power to make crops grow.
+}
+
+TYPE_1                      = "DARK"
+TYPE_2                      = "FAIRY"
+
+BASE_HP                     = 65
+BASE_ATTACK                 = 60
+BASE_DEFENSE                = 45
+BASE_SP_ATTACK              = 75
+BASE_SP_DEFENSE             = 55
+BASE_SPEED                  = 70
+
+CATCH_RATE                  = 120
+EXP_YIELD                   = 130
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(0)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_FAST"
+BODY_COLOR                  = "RED"
+
+EGG_CYCLES                  = 20
+EGG_GROUP_1                 = "EGG_GROUP_FAIRY"
+EGG_GROUP_2                 = "EGG_GROUP_HUMAN_LIKE"
+
+ABILITY_1                   = "INSOMNIA"
+ABILITY_2                   = "INSOMNIA"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 0
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 2
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+    1="BITE"
+    1="FLATTER"
+    1="FAKE_OUT"
+    12="FAKE_TEARS"
+    20="SWAGGER"
+    28="TORMENT"
+    35="CRUNCH"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "PROTECT"
+    "THIEF"
+    "FACADE"
+    "REFLECT"
+    "LIGHT_SCREEN"
+    "REST"
+    "TAUNT"
+}

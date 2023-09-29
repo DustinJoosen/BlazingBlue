@@ -1,0 +1,55 @@
+NAME            SPRITE          CRY         DATA        DONE        TESTED
+
+
+Blipbug         SPRITE          CRY         DATA        DONE        TESTED
+Dottler         SPRITE          CRY         DATA        DONE
+Orbeetle        SPRITE          CRY         DATA        DONE        TESTED
+Piplup          SPRITE          CRY         DATA        DONE        TESTED
+Mareanie        SPRITE          CRY         DATA        DONE
+Toxapex         SPRITE          CRY         DATA        DONE
+Squirtle        SPRITE          CRY         DATA        DONE
+Lilipup         SPRITE          CRY         DATA        DONE
+Herdier         SPRITE          CRY         DATA        DONE
+Stoutland       SPRITE          CRY         DATA        DONE
+Impidimp        SPRITE          CRY         DATA        DONE
+Morgrem         SPRITE          CRY         DATA        DONE
+Grimmsnarl      SPRITE          CRY         DATA        DONE
+Joltik          SPRITE          CRY         DATA        DONE
+Galvantula      SPRITE          CRY         DATA        DONE
+Frillish        SPRITE          CRY         DATA        DONE
+Jellicent       SPRITE          CRY         DATA        DONE
+Leaveon         SPRITE          CRY         DATA        DONE
+Glaceon         SPRITE          CRY         DATA        DONE
+Sylveon         SPRITE          CRY         DATA        DONE
+Sewaddle        SPRITE          CRY         DATA        DONE        -note: back.png coords issue
+Swadloon        SPRITE          CRY         DATA        DONE
+Leavanny        SPRITE          CRY         DATA        DONE
+Overqwil        SPRITE          CRY         DATA        DONE
+Toxel           SPRITE          CRY         DATA        DONE
+Toxtricity      SPRITE          CRY         DATA        DONE
+Gliscor         SPRITE          CRY
+Gible           SPRITE          CRY
+Gabite          SPRITE          CRY
+Garchomp        SPRITE          CRY
+Phantump        SPRITE          CRY
+Trevenant       SPRITE          CRY
+Goomy           SPRITE          CRY
+Sliggoo         SPRITE          CRY
+Goodra          SPRITE          CRY
+Sliggoo         SPRITE          CRY
+Goodra          SPRITE          CRY
+Bisharp         SPRITE          CRY
+Honedge         SPRITE          CRY
+Doublade        SPRITE          CRY
+Aegislash       SPRITE          CRY
+Yamper          SPRITE          CRY
+Boltund         SPRITE          CRY
+Deino           SPRITE          CRY
+Zweilous        SPRITE          CRY
+Hydreigon       SPRITE          CRY
+Milcery         SPRITE          CRY
+Alcemie         SPRITE          CRY
+Kleavor         SPRITE          CRY
+Klink           SPRITE          CRY
+Klang           SPRITE          CRY
+Klinklang       SPRITE          CRY

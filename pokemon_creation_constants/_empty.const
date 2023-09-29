@@ -1,0 +1,53 @@
+
+POKEMON_NAME                = ""
+CATEGORY_NAME               = ""
+HEIGHT                      = 1.0
+WEIGHT                      = 10.0
+
+POKEMON_SCALE               = 128
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "True"
+EVOLUTION_METHOD            = ""
+EVOLUTION_CRITERIA          = 0
+EVOLUTION_SPECIES           = ""
+
+POKEDEX_TEXT                = {
+}
+
+TYPE_1                      = ""
+TYPE_2                      = ""
+
+BASE_HP                     = 0
+BASE_ATTACK                 = 0
+BASE_DEFENSE                = 0
+BASE_SP_ATTACK              = 0
+BASE_SP_DEFENSE             = 0
+BASE_SPEED                  = 0
+
+CATCH_RATE                  = 0
+EXP_YIELD                   = 0
+FRIENDSHIP                  = 0
+GENDER_RATIO                = ""
+GROWTH_RATE                 = ""
+BODY_COLOR                  = ""
+
+EGG_CYCLES                  = 0
+EGG_GROUP_1                 = ""
+EGG_GROUP_2                 = ""
+
+ABILITY_1                   = ""
+ABILITY_2                   = ""
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 0
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+}
+
+ALLOWED_TMS_AND_HMS         = {
+}

@@ -1,0 +1,69 @@
+
+POKEMON_NAME                = "Sewaddle"
+CATEGORY_NAME               = "SEWING"
+HEIGHT                      = 0.3
+WEIGHT                      = 2.5
+
+POKEMON_SCALE               = 42
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "True"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 20
+EVOLUTION_SPECIES           = "SPECIES_SWADLOON"
+
+POKEDEX_TEXT                = {
+    This Pokémon makes clothes for
+    itself. It chews up leaves and
+    sews them with sticky thread
+    extruded from its mouth.
+}
+
+TYPE_1                      = "BUG"
+TYPE_2                      = "GRASS"
+
+BASE_HP                     = 45
+BASE_ATTACK                 = 53
+BASE_DEFENSE                = 70
+BASE_SP_ATTACK              = 40
+BASE_SP_DEFENSE             = 60
+BASE_SPEED                  = 42
+
+CATCH_RATE                  = 255
+EXP_YIELD                   = 62
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(50)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_SLOW"
+BODY_COLOR                  = "GREEN"
+
+EGG_CYCLES                  = 15
+EGG_GROUP_1                 = "EGG_GROUP_BUG"
+EGG_GROUP_2                 = "EGG_GROUP_BUG"
+
+ABILITY_1                   = "SWARM"
+ABILITY_2                   = "CHLOROPHYLL"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 1
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+    1="STRING_SHOT"
+    1="TACKLE"
+    8="RAZOR_LEAF"
+    15="ENDURE"
+    22="FLAIL"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "PROTECT"
+    "FACADE"
+    "SUNNY_DAY"
+    "RAIN_DANCE"
+    "REST"
+    "GIGA_DRAIN"
+    "SOLAR_BEAM"
+}

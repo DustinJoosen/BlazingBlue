@@ -1939,6 +1939,106 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
+Cry_Overqwil::
+	.incbin "sound/direct_sound_samples/cries/overqwil.bin"
+
+	.align 2
+Cry_Leavanny::
+	.incbin "sound/direct_sound_samples/cries/leavanny.bin"
+
+	.align 2
+Cry_Swadloon::
+	.incbin "sound/direct_sound_samples/cries/swadloon.bin"
+
+	.align 2
+Cry_Sewaddle::
+	.incbin "sound/direct_sound_samples/cries/sewaddle.bin"
+
+	.align 2
+Cry_Sylveon::
+	.incbin "sound/direct_sound_samples/cries/sylveon.bin"
+
+	.align 2
+Cry_Leafeon::
+	.incbin "sound/direct_sound_samples/cries/leafeon.bin"
+
+	.align 2
+Cry_Glaceon::
+	.incbin "sound/direct_sound_samples/cries/glaceon.bin"
+
+	.align 2
+Cry_Jellicent::
+	.incbin "sound/direct_sound_samples/cries/jellicent.bin"
+
+	.align 2
+Cry_Frillish::
+	.incbin "sound/direct_sound_samples/cries/frillish.bin"
+
+	.align 2
+Cry_Grimmsnarl::
+	.incbin "sound/direct_sound_samples/cries/grimmsnarl.bin"
+
+	.align 2
+Cry_Morgrem::
+	.incbin "sound/direct_sound_samples/cries/morgrem.bin"
+
+	.align 2
+Cry_Stoutland::
+	.incbin "sound/direct_sound_samples/cries/stoutland.bin"
+
+	.align 2
+Cry_Herdier::
+	.incbin "sound/direct_sound_samples/cries/herdier.bin"
+
+	.align 2
+Cry_Lillipup::
+	.incbin "sound/direct_sound_samples/cries/lillipup.bin"
+
+	.align 2
+Cry_Toxapex::
+	.incbin "sound/direct_sound_samples/cries/toxapex.bin"
+
+	.align 2
+Cry_Mareanie::
+	.incbin "sound/direct_sound_samples/cries/mareanie.bin"
+
+	.align 2
+Cry_Impidimp::
+	.incbin "sound/direct_sound_samples/cries/impidimp.bin"
+
+	.align 2
+Cry_Orbeetle::
+	.incbin "sound/direct_sound_samples/cries/orbeetle.bin"
+
+	.align 2
+Cry_Dottler::
+	.incbin "sound/direct_sound_samples/cries/dottler.bin"
+
+	.align 2
+Cry_Blipbug::
+	.incbin "sound/direct_sound_samples/cries/blipbug.bin"
+
+	.align 2
+Cry_Galvantula::
+	.incbin "sound/direct_sound_samples/cries/galvantula.bin"
+
+	.align 2
+Cry_Joltik::
+	.incbin "sound/direct_sound_samples/cries/joltik.bin"
+
+	.align 2
+Cry_Piplup::
+	.incbin "sound/direct_sound_samples/cries/piplup.bin"
+
+	.align 2
+Cry_Toxtricity::
+	.incbin "sound/direct_sound_samples/cries/toxtricity.bin"
+
+	.align 2
+Cry_Toxel::
+	.incbin "sound/direct_sound_samples/cries/toxel.bin"
+
+	.align 2
 Cry_Tandemaus::
 	.incbin "sound/direct_sound_samples/cries/tandemaus.bin"
 

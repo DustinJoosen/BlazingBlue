@@ -2321,6 +2321,180 @@ const u8 gTandemausPokedexText[] = _(
 	"off with them.\n"
 );
 
+const u8 gToxelPokedexText[] = _(
+	"It has no problem drinking dirty water. \n"
+	"An organ inside Toxel's body filters\n"
+	"such water into a poisonous liquid\n"
+	"that is harmless to Toxel.\n"
+);
+
+const u8 gToxtricityPokedexText[] = _(
+	"It has an electrical organ on its chest.\n"
+	"While generating electricity, it fills\n"
+	"its surroundings with what sounds\n"
+	"like the strumming of a bass guitar.\n"
+);
+
+const u8 gPiplupPokedexText[] = _(
+	"Piplup prefers cold climates and coasts.\n"
+	"It's an adorable little thing-as cute as\n"
+	"any child-but it's also prideful,\n"
+	"unwilling to accept handouts from people.\n"
+);
+
+const u8 gJoltikPokedexText[] = _(
+	"They attach themselves to large-bodied\n"
+	"Pokemon and absorb static electricity\n"
+	"which they store in an electric pouch.\n"
+	"It's widely regarded as adorable.\n"
+);
+
+const u8 gGalvantulaPokedexText[] = _(
+	"They employ an electrically charged\n"
+	"web to trap their prey. While it\n"
+	"is immobilized by shock, they\n"
+	"leisurely consume it.\n"
+);
+
+const u8 gBlipbugPokedexText[] = _(
+	"Often found in gardens, this Pokemon\n"
+	"has hairs on its body that it uses\n"
+	"to assess its surroundings.\n"
+);
+
+const u8 gDottlerPokedexText[] = _(
+	"As it grows inside its shell,\n"
+	"it uses its psychic abilities\n"
+	"to monitor the outside world \n"
+	"and prepare for evolution.\n"
+);
+
+const u8 gOrbeetlePokedexText[] = _(
+	"It emits psychic energy to observe\n"
+	"and study what's around it'and what's\n"
+	"around it can include things over six\n"
+	"miles away.\n"
+);
+
+const u8 gImpidimpPokedexText[] = _(
+	"It sneaks into people’s homes,\n"
+	"stealing things and feasting\n"
+	"on the negative energy of the\n"
+	"frustrated occupants.\n"
+);
+
+const u8 gMareaniePokedexText[] = _(
+	"It plunges the poison spike on its\n"
+	"head into its prey. When the prey has\n"
+	"weakened, Mareanie deals the finishing\n"
+	"blow with its 10 tentacles.\n"
+);
+
+const u8 gToxapexPokedexText[] = _(
+	"Those attacked by Toxapex’s poison\n"
+	"will suffer intense pain for three\n"
+	"days and three nights. Post-recovery,\n"
+	"there will be some aftereffects.\n"
+);
+
+const u8 gLillipupPokedexText[] = _(
+	"Because it doesn’t yelp,\n"
+	"it’s extremely popular\n"
+	"with Trainers who live\n"
+	"in apartment buildings.\n"
+);
+
+const u8 gHerdierPokedexText[] = _(
+	"Its dense black fur grows continuously.\n"
+	"The high cost of keeping its hard fur\n"
+	"properly groomed makes this a\n"
+	"troublesome Pokémon to train.\n"
+);
+
+const u8 gStoutlandPokedexText[] = _(
+	"With this wise Pokémon, there\n"
+	"could be no concern that it\n"
+	"would ever attack people. Some\n"
+	"parents even trust it to babysit.\n"
+);
+
+const u8 gMorgremPokedexText[] = _(
+	"With sly cunning, it tries to\n"
+	"lure people into the woods.\n"
+	"Some believe it to have the\n"
+	"power to make crops grow.\n"
+);
+
+const u8 gGrimmsnarlPokedexText[] = _(
+	"Its hairs work like muscle\n"
+	"fibers. When its hairs unfurl,\n"
+	"they latch on to opponents,\n"
+	"ensnaring them as tentacles would.\n"
+);
+
+const u8 gFrillishPokedexText[] = _(
+	"If its veil-like arms stun and\n"
+	"wrap a foe, that foe will be\n"
+	"dragged miles below the surface,\n"
+	"never to return.\n"
+);
+
+const u8 gJellicentPokedexText[] = _(
+	"Its body is mostly seawater.\n"
+	"It’s said there’s a castle\n"
+	"of ships Jellicent have\n"
+	"sunk on the seafloor.\n"
+);
+
+const u8 gGlaceonPokedexText[] = _(
+	"It can control its body temperature\n"
+	"at will. This enables it to freeze\n"
+	"the moisture in the atmosphere,\n"
+	"creating flurries of diamond dust.\n"
+);
+
+const u8 gLeafeonPokedexText[] = _(
+	"With cells similar to those\n"
+	"of plants, it performs\n"
+	"photosynthesis inside its\n"
+	"body and creates pure air.\n"
+);
+
+const u8 gSylveonPokedexText[] = _(
+	"Its ribbonlike feelers give off\n"
+	"an aura that weakens hostility\n"
+	"in its prey, causing them to\n"
+	"let down their guard. Then it attacks.\n"
+);
+
+const u8 gSewaddlePokedexText[] = _(
+	"This Pokémon makes clothes for\n"
+	"itself. It chews up leaves and\n"
+	"sews them with sticky thread\n"
+	"extruded from its mouth.\n"
+);
+
+const u8 gSwadloonPokedexText[] = _(
+	"Forests where Swadloon live\n"
+	"have superb foliage because\n"
+	"the nutrients they make from\n"
+	"fallen leaves nourish the plant life.\n"
+);
+
+const u8 gLeavannyPokedexText[] = _(
+	"Upon finding a small Pokémon,\n"
+	"it weaves clothing for it\n"
+	"from leaves by using the sticky\n"
+	"silk secreted from its mouth.\n"
+);
+
+const u8 gOverqwilPokedexText[] = _(
+	"Its lancelike spikes and savage\n"
+	"temperament have earned it the\n"
+	"nickname sea fiend. It slurps\n"
+	"up poison to nourish itself.\n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"

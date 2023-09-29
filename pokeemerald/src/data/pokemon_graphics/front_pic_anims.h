@@ -4596,6 +4596,179 @@ static const union AnimCmd sAnim_Tandemaus_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Toxel_1[] = 
+{
+    ANIMCMD_FRAME(0, 1),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Toxtricity_1[] = 
+{
+	ANIMCMD_FRAME(0, 1),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Piplup_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Joltik_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Galvantula_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Blipbug_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dottler_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Orbeetle_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Impidimp_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Mareanie_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Toxapex_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Lillipup_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Herdier_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Stoutland_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Morgrem_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Grimmsnarl_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Frillish_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Jellicent_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Glaceon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Leafeon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sylveon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sewaddle_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Swadloon_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Leavanny_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Overqwil_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5239,6 +5412,31 @@ DOUBLE_ANIMATION(Deoxys);
 SINGLE_ANIMATION(Chimecho);
 SINGLE_ANIMATION(Bodilad);
 SINGLE_ANIMATION(Tandemaus);
+SINGLE_ANIMATION(Toxel);
+SINGLE_ANIMATION(Toxtricity);
+SINGLE_ANIMATION(Piplup);
+SINGLE_ANIMATION(Joltik);
+SINGLE_ANIMATION(Galvantula);
+SINGLE_ANIMATION(Blipbug);
+SINGLE_ANIMATION(Dottler);
+SINGLE_ANIMATION(Orbeetle);
+SINGLE_ANIMATION(Impidimp);
+SINGLE_ANIMATION(Mareanie);
+SINGLE_ANIMATION(Toxapex);
+SINGLE_ANIMATION(Lillipup);
+SINGLE_ANIMATION(Herdier);
+SINGLE_ANIMATION(Stoutland);
+SINGLE_ANIMATION(Morgrem);
+SINGLE_ANIMATION(Grimmsnarl);
+SINGLE_ANIMATION(Frillish);
+SINGLE_ANIMATION(Jellicent);
+SINGLE_ANIMATION(Glaceon);
+SINGLE_ANIMATION(Leafeon);
+SINGLE_ANIMATION(Sylveon);
+SINGLE_ANIMATION(Sewaddle);
+SINGLE_ANIMATION(Swadloon);
+SINGLE_ANIMATION(Leavanny);
+SINGLE_ANIMATION(Overqwil);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5684,6 +5882,31 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHIMECHO]    = sAnims_Chimecho,
     [SPECIES_BODILAD]     = sAnims_Bodilad,
 	[SPECIES_TANDEMAUS]         = sAnims_Tandemaus,
+	[SPECIES_TOXEL]         = sAnims_Toxel,
+	[SPECIES_TOXTRICITY]         = sAnims_Toxtricity,
+	[SPECIES_PIPLUP]         = sAnims_Piplup,
+	[SPECIES_JOLTIK]         = sAnims_Joltik,
+	[SPECIES_GALVANTULA]         = sAnims_Galvantula,
+	[SPECIES_BLIPBUG]         = sAnims_Blipbug,
+	[SPECIES_DOTTLER]         = sAnims_Dottler,
+	[SPECIES_ORBEETLE]         = sAnims_Orbeetle,
+	[SPECIES_IMPIDIMP]         = sAnims_Impidimp,
+	[SPECIES_MAREANIE]         = sAnims_Mareanie,
+	[SPECIES_TOXAPEX]         = sAnims_Toxapex,
+	[SPECIES_LILLIPUP]         = sAnims_Lillipup,
+	[SPECIES_HERDIER]         = sAnims_Herdier,
+	[SPECIES_STOUTLAND]         = sAnims_Stoutland,
+	[SPECIES_MORGREM]         = sAnims_Morgrem,
+	[SPECIES_GRIMMSNARL]         = sAnims_Grimmsnarl,
+	[SPECIES_FRILLISH]         = sAnims_Frillish,
+	[SPECIES_JELLICENT]         = sAnims_Jellicent,
+	[SPECIES_GLACEON]         = sAnims_Glaceon,
+	[SPECIES_LEAFEON]         = sAnims_Leafeon,
+	[SPECIES_SYLVEON]         = sAnims_Sylveon,
+	[SPECIES_SEWADDLE]         = sAnims_Sewaddle,
+	[SPECIES_SWADLOON]         = sAnims_Swadloon,
+	[SPECIES_LEAVANNY]         = sAnims_Leavanny,
+	[SPECIES_OVERQWIL]         = sAnims_Overqwil,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

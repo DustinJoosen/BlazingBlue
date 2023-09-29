@@ -1,0 +1,75 @@
+
+POKEMON_NAME                = "Grimmsnarl"
+CATEGORY_NAME               = "BULK UP"
+HEIGHT                      = 1.5
+WEIGHT                      = 61.0
+
+POKEMON_SCALE               = 256
+TRAINER_SCALE               = 290
+
+HAS_EVOLUTION               = "False"
+EVOLUTION_METHOD            = "EVO_LEVEL"
+EVOLUTION_CRITERIA          = 42
+EVOLUTION_SPECIES           = "GRIMMSNARL"
+
+POKEDEX_TEXT                = {
+    Its hairs work like muscle
+    fibers. When its hairs unfurl,
+    they latch on to opponents,
+    ensnaring them as tentacles would.
+}
+
+TYPE_1                      = "DARK"
+TYPE_2                      = "FAIRY"
+
+BASE_HP                     = 95
+BASE_ATTACK                 = 120
+BASE_DEFENSE                = 65
+BASE_SP_ATTACK              = 95
+BASE_SP_DEFENSE             = 75
+BASE_SPEED                  = 60
+
+CATCH_RATE                  = 120
+EXP_YIELD                   = 130
+FRIENDSHIP                  = 50
+GENDER_RATIO                = "PERCENT_FEMALE(0)"
+GROWTH_RATE                 = "GROWTH_MEDIUM_FAST"
+BODY_COLOR                  = "BLACK"
+
+EGG_CYCLES                  = 20
+EGG_GROUP_1                 = "EGG_GROUP_FAIRY"
+EGG_GROUP_2                 = "EGG_GROUP_HUMAN_LIKE"
+
+ABILITY_1                   = "INSOMNIA"
+ABILITY_2                   = "INSOMNIA"
+
+EV_YIELD_HP                 = 0
+EV_YIELD_ATTACK             = 0
+EV_YIELD_DEFENSE            = 3
+EV_YIELD_SPEED              = 0
+EV_YIELD_SP_ATTACK          = 0
+EV_YIELD_SP_DEFENSE         = 0
+
+LEARNED_MOVES               = {
+    1="BITE"
+    1="FLATTER"
+    1="FAKE_OUT"
+    1="BULK_UP"
+    12="FAKE_TEARS"
+    20="SWAGGER"
+    28="TORMENT"
+    35="CRUNCH"
+}
+
+ALLOWED_TMS_AND_HMS         = {
+    "PROTECT"
+    "THIEF"
+    "FACADE"
+    "BRICK_BREAK"
+    "BULK_UP"
+    "REFLECT"
+    "LIGHT_SCREEN"
+    "REST"
+    "TAUNT"
+    "HYPER_BEAM"
+}

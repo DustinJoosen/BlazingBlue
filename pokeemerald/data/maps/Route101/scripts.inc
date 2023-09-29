@@ -300,3 +300,48 @@ Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
 
+Route101_EventScript_GiveMasterballs::
+	lockall
+	faceplayer
+	msgbox Route101_EventScript_GiveMasterballs_Text_0
+	additem 1, 99
+	compare VAR_RESULT, YES
+	goto_if_eq Route101_EventScript_GiveMasterballs_2
+Route101_EventScript_GiveMasterballs_1:
+	releaseall
+	return
+
+Route101_EventScript_GiveMasterballs_2:
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Route101_EventScript_GiveMasterballs_Text_1
+	goto Route101_EventScript_GiveMasterballs_1
+
+
+Route101_EventScript_GiveRareCandies::
+	lockall
+	faceplayer
+	msgbox Route101_EventScript_GiveRareCandies_Text_0
+	additem 68, 99
+	compare VAR_RESULT, YES
+	goto_if_eq Route101_EventScript_GiveRareCandies_2
+Route101_EventScript_GiveRareCandies_1:
+	releaseall
+	return
+
+Route101_EventScript_GiveRareCandies_2:
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Route101_EventScript_GiveRareCandies_Text_1
+	goto Route101_EventScript_GiveRareCandies_1
+
+
+Route101_EventScript_GiveMasterballs_Text_0:
+	.string "Here. 99 master-balls$"
+
+Route101_EventScript_GiveMasterballs_Text_1:
+	.string "You received 99 master-balls$"
+
+Route101_EventScript_GiveRareCandies_Text_0:
+	.string "Here. 99 rare candies$"
+
+Route101_EventScript_GiveRareCandies_Text_1:
+	.string "You recieved 99 rare candies$"

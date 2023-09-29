@@ -4644,6 +4644,306 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_TOXEL] = 
+	{
+		.categoryName = _("BABY"),
+		.height = 40,
+		.weight = 11.0,
+		.description = gToxelPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_TOXTRICITY] = 
+	{
+		.categoryName = _("PUNK"),
+		.height = 16,
+		.weight = 40.0,
+		.description = gToxtricityPokedexText,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_PIPLUP] = 
+	{
+		.categoryName = _("Penguin"),
+		.height = 4,
+		.weight = 5.2,
+		.description = gPiplupPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_JOLTIK] = 
+	{
+		.categoryName = _("ATTACHING"),
+		.height = 0.1,
+		.weight = 0.6,
+		.description = gJoltikPokedexText,
+		.pokemonScale = 8,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_GALVANTULA] = 
+	{
+		.categoryName = _("ELESPIDER"),
+		.height = 0.8,
+		.weight = 14.3,
+		.description = gGalvantulaPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_BLIPBUG] = 
+	{
+		.categoryName = _("LARVA"),
+		.height = 0.4,
+		.weight = 8.0,
+		.description = gBlipbugPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_DOTTLER] = 
+	{
+		.categoryName = _("RADOME"),
+		.height = 0.4,
+		.weight = 19.5,
+		.description = gDottlerPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_ORBEETLE] = 
+	{
+		.categoryName = _("SEVEN SPOT"),
+		.height = 0.4,
+		.weight = 40.8,
+		.description = gOrbeetlePokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 290,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_IMPIDIMP] = 
+	{
+		.categoryName = _("WILY"),
+		.height = 0.4,
+		.weight = 5.5,
+		.description = gImpidimpPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_MAREANIE] = 
+	{
+		.categoryName = _("BRUTALSTAR"),
+		.height = 0.4,
+		.weight = 8.0,
+		.description = gMareaniePokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_TOXAPEX] = 
+	{
+		.categoryName = _("BRUTALSTAR"),
+		.height = 0.7,
+		.weight = 14.5,
+		.description = gToxapexPokedexText,
+		.pokemonScale = 95,
+		.pokemonOffset = 0,
+		.trainerScale = 95,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_LILLIPUP] = 
+	{
+		.categoryName = _("PUPPY"),
+		.height = 0.4,
+		.weight = 4.1,
+		.description = gLillipupPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_HERDIER] = 
+	{
+		.categoryName = _("LOYALDOG"),
+		.height = 0.9,
+		.weight = 14.7,
+		.description = gHerdierPokedexText,
+		.pokemonScale = 108,
+		.pokemonOffset = 0,
+		.trainerScale = 108,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_STOUTLAND] = 
+	{
+		.categoryName = _("BIGHEARTHED"),
+		.height = 1.2,
+		.weight = 61.0,
+		.description = gStoutlandPokedexText,
+		.pokemonScale = 164,
+		.pokemonOffset = 0,
+		.trainerScale = 164,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_MORGREM] = 
+	{
+		.categoryName = _("DEVIOUS"),
+		.height = 0.8,
+		.weight = 12.5,
+		.description = gMorgremPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_GRIMMSNARL] = 
+	{
+		.categoryName = _("BULKUP"),
+		.height = 1.5,
+		.weight = 61.0,
+		.description = gGrimmsnarlPokedexText,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_FRILLISH] = 
+	{
+		.categoryName = _("FLOATING"),
+		.height = 1.2,
+		.weight = 33.0,
+		.description = gFrillishPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_JELLICENT] = 
+	{
+		.categoryName = _("FLOATING"),
+		.height = 2.2,
+		.weight = 135.0,
+		.description = gJellicentPokedexText,
+		.pokemonScale = 310,
+		.pokemonOffset = 0,
+		.trainerScale = 310,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_GLACEON] = 
+	{
+		.categoryName = _("FRESHSNOW"),
+		.height = 0.8,
+		.weight = 25.9,
+		.description = gGlaceonPokedexText,
+		.pokemonScale = 116,
+		.pokemonOffset = 0,
+		.trainerScale = 116,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_LEAFEON] = 
+	{
+		.categoryName = _("VERDANT"),
+		.height = 1.0,
+		.weight = 25.5,
+		.description = gLeafeonPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SYLVEON] = 
+	{
+		.categoryName = _("FRESHSNOW"),
+		.height = 1.0,
+		.weight = 23.5,
+		.description = gSylveonPokedexText,
+		.pokemonScale = 128,
+		.pokemonOffset = 0,
+		.trainerScale = 128,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SEWADDLE] = 
+	{
+		.categoryName = _("SEWING"),
+		.height = 0.3,
+		.weight = 2.5,
+		.description = gSewaddlePokedexText,
+		.pokemonScale = 42,
+		.pokemonOffset = 0,
+		.trainerScale = 42,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_SWADLOON] = 
+	{
+		.categoryName = _("LEAFWRAPPED"),
+		.height = 0.5,
+		.weight = 7.3,
+		.description = gSwadloonPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_LEAVANNY] = 
+	{
+		.categoryName = _("NURTURING"),
+		.height = 1.2,
+		.weight = 20.5,
+		.description = gLeavannyPokedexText,
+		.pokemonScale = 153,
+		.pokemonOffset = 0,
+		.trainerScale = 153,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_OVERQWIL] = 
+	{
+		.categoryName = _("PINCLUSTER"),
+		.height = 2.5,
+		.weight = 60.5,
+		.description = gOverqwilPokedexText,
+		.pokemonScale = 350,
+		.pokemonOffset = 0,
+		.trainerScale = 350,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),
