@@ -1,10 +1,10 @@
-NAME            SPRITE          CRY         DATA
+NAME            SPRITE          CRY         DATA        DONE        TESTED
 
 
-Blipbug         SPRITE          CRY         DATA        DONE
+Blipbug         SPRITE          CRY         DATA        DONE        TESTED
 Dottler         SPRITE          CRY         DATA        DONE
-Orbeetle        SPRITE          CRY         DATA        DONE
-Piplup          SPRITE          CRY         DATA        DONE
+Orbeetle        SPRITE          CRY         DATA        DONE        TESTED
+Piplup          SPRITE          CRY         DATA        DONE        TESTED
 Mareanie        SPRITE          CRY         DATA        DONE
 Toxapex         SPRITE          CRY         DATA        DONE
 Squirtle        SPRITE          CRY         DATA        DONE

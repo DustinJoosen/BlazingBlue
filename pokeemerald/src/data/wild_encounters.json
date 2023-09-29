@@ -85,32 +85,32 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_LEAFEON"
+                "species": "SPECIES_BLIPBUG"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_GLACEON"
+                "species": "SPECIES_DOTTLER"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SYLVEON"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SEWADDLE"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SWADLOON"
+                "species": "SPECIES_PIPLUP"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_LEAVANNY"
+                "species": "SPECIES_PIPLUP"
               },
               {
                 "min_level": 3,
@@ -120,7 +120,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_OVERQWIL"
+                "species": "SPECIES_ORBEETLE"
               },
               {
                 "min_level": 2,

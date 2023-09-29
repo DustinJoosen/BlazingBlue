@@ -1,4 +1,7 @@
 
+-- THIS IS AN EXAMPLE CONST FILE. DON'T USE THIS --
+
+
 -- needs to have the first letter capitalized --
 POKEMON_NAME                = "Sylveon"
 
@@ -19,7 +22,6 @@ EVOLUTION_METHOD            = "EVO_LEVEL"
 EVOLUTION_CRITERIA          = 42
 EVOLUTION_SPECIES           = "SPECIES_GRIMMSNARL"
 
--- keep line length around this size --
 POKEDEX_TEXT                = {
     Its ribbonlike feelers give off
     an aura that weakens hostility
@@ -44,12 +46,15 @@ EXP_YIELD                   = 184
 FRIENDSHIP                  = 50
 GENDER_RATIO                = "PERCENT_FEMALE(12)"
 GROWTH_RATE                 = "GROWTH_MEDIUM_FAST"
+
+-- No clue what it's used for lmao --
 BODY_COLOR                  = "PINK"
 
 EGG_CYCLES                  = 35
 EGG_GROUP_1                 = "EGG_GROUP_FIELD"
 EGG_GROUP_2                 = "EGG_GROUP_FIELD"
 
+-- Check out of the list of abilities I gave you with this. --
 ABILITY_1                   = "CUTE_CHARM"
 ABILITY_2                   = "CUTE_CHARM"
 
@@ -59,6 +64,8 @@ EV_YIELD_DEFENSE            = 0
 EV_YIELD_SPEED              = 0
 EV_YIELD_SP_ATTACK          = 0
 EV_YIELD_SP_DEFENSE         = 2
+
+-- Yeah these last ones sucks. If unsure, just give it tackle and leer or smth --
 
 LEARNED_MOVES               = {
     1="BATON_PASS"
