@@ -1,0 +1,128 @@
+mapscripts Knowhere_ProfessorCherrysLab_MapScripts { }
+
+script Knowhere_ProfessorCherrysLab_EventScript_Professor {
+    lockall
+    faceplayer
+
+    if (flag(FLAG_SYS_POKEMON_GET) == TRUE) {
+        msgbox("Enjoy your new pokemon")
+    }
+    else {
+        msgbox("Go ahead and grab this Pokemon")
+    }
+
+    releaseall
+}
+
+script Knowhere_ProfessorCherrysLab_EventScript_AhPlayer {
+    lockall
+
+    if (flag(FLAG_UNUSED_0x264) == TRUE) {
+        return
+    }
+
+    msgbox("Ah {PLAYER}!")
+    applymovement(1, Knowhere_ProfessorCherrysLab_CherryMovesToEntry)
+    waitmovement(0)
+
+    msgbox("I was waiting for you.\nCome with me$")
+
+    applymovement(1, Knowhere_ProfessorCherrysLab_CherryMovesUp)
+    applymovement(OBJ_EVENT_ID_PLAYER, Knowhere_ProfessorCherrysLab_PlayerMovesUp)
+
+    waitmovement(1)
+    waitmovement(OBJ_EVENT_ID_PLAYER)
+
+    setflag(FLAG_UNUSED_0x264)
+
+    msgbox(Knowhere_ProfessorCherrysLab_ChoosePokemon)
+
+    releaseall
+}
+
+script Knowhere_ProfessorCherrysLab_EventScript_Pokeball {
+    lockall
+
+    showmonpic(SPECIES_BODILAD, 10, 3)
+    msgbox("Do you want to choose Bodilad?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        givemon(SPECIES_BODILAD, 50, ITEM_MASTER_BALL)
+
+        if (var(VAR_RESULT) == MON_GIVEN_TO_PARTY) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bodilad")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_SYS_POKEMON_GET)
+            call(Knowhere_NicknamePartyMon)
+        }
+        elif (var(VAR_RESULT) == MON_GIVEN_TO_PC) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bodilad")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_SYS_POKEMON_GET)
+            call(Knowhere_NicknameBoxMon)
+        }
+        else {
+            hidemonpic
+            msgbox("No more room")
+        }
+    }
+    else {
+        hidemonpic
+        msgbox(Knowhere_ProfessorCherrysLab_NotChosen)
+    }
+
+    waitmessage
+    releaseall
+    end
+}
+
+script Knowhere_NicknamePartyMon {
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+
+    if (var(VAR_RESULT) == YES) {
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script Knowhere_NicknameBoxMon {
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+
+    if (var(VAR_RESULT) == YES) {
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    msgbox("Transferred to PC")
+}
+
+text Knowhere_ProfessorCherrysLab_NotChosen {
+    "You did not choose the pokemon"
+}
+
+text Knowhere_ProfessorCherrysLab_ChoosePokemon {
+    "I wanted to give you a pokemon.\p"
+    "This will allow you to travel\n"
+    "outside of knowhere$"
+}
+
+movement Knowhere_ProfessorCherrysLab_CherryMovesToEntry {
+    walk_down * 5
+    face_left
+    walk_left
+}
+
+movement Knowhere_ProfessorCherrysLab_CherryMovesUp {
+    face_up
+    walk_up * 5
+    face_left
+}
+
+movement Knowhere_ProfessorCherrysLab_PlayerMovesUp {
+    face_up
+    walk_up * 5
+}

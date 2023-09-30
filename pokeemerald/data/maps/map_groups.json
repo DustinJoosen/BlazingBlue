@@ -1,6 +1,7 @@
 {
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_IndoorKnowhere",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -94,6 +95,11 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "Knowhere"
+  ],
+  "gMapGroup_IndoorKnowhere": [
+    "Knowhere_PlayerHouse",
+    "Knowhere_Gym",
+    "Knowhere_ProfessorCherrysLab"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
