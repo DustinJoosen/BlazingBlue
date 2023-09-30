@@ -1,0 +1,83 @@
+{
+  "id": "MAP_KNOWHERE_PROFESSOR_CHERRYS_LAB",
+  "name": "Knowhere_ProfessorCherrysLab",
+  "layout": "LAYOUT_KNOWHERE_PROFESSOR_CHERRYS_LAB",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Knowhere_ProfessorCherrysLab_EventScript_Professor",
+      "flag": "FLAG_UNUSED_0x023"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Knowhere_ProfessorCherrysLab_EventScript_Pokeball",
+      "flag": "FLAG_UNUSED_0x020"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_KNOWHERE",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_KNOWHERE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_STARTER_MON",
+      "var_value": "0",
+      "script": "Knowhere_ProfessorCherrysLab_EventScript_AhPlayer"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_STARTER_MON",
+      "var_value": "0",
+      "script": "Knowhere_ProfessorCherrysLab_EventScript_AhPlayer"
+    }
+  ],
+  "bg_events": [
+
+  ]
+}

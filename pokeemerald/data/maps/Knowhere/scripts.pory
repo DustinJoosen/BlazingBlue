@@ -13,31 +13,99 @@ script Knowhere_EventScript_LoveYou {
     lockall
     faceplayer
 
-    msgbox("Ik ga naar bed. Love you!")
+    msgbox("Ik ga naar bed. Love you lots!")
+
+    releaseall
+}
+
+script Knowhere_EventScript_FirstFight {
+    lockall
+
+    msgbox("You want to fight?", MSGBOX_YESNO)
+    if (var(VAR_RESULT) == YES) {
+        trainerbattle_single(TRAINER_JADZIA, "Hell yeah! Let's go", "Here's a kiss, as reward")
+        setflag(FLAG_UNUSED_0x93C)
+    }
+    else {
+        msgbox("Prude.")
+    }
+
+    releaseall
+}
+
+script Knowhere_EventScript_Roadblock {
+    lockall
+
+    if (flag(FLAG_SYS_POKEMON_GET) == TRUE) {
+        releaseall
+        return
+    }
+
+    msgbox("You remember Professor Cherry said she\nwanted to see you at her lab yesterday$")
+    applymovement(OBJ_EVENT_ID_PLAYER, Movement_MovePlayerLeft)
+    waitmovement(0)
+
+    releaseall
+}
+
+script Knowhere_EventScript_GiveRunningShoes {
+    lockall
+    faceplayer
+
+    if (flag(FLAG_RECEIVED_RUNNING_SHOES) == FALSE) {
+        msgbox(Text_MomGivesRunningShoes)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{PLAYER} switches shoes with the\nRUNNING SHOES.$")
+        waitfanfare
+
+        setflag(FLAG_RECEIVED_RUNNING_SHOES)
+        setflag(FLAG_SYS_B_DASH)
+
+        msgbox(Text_RunningShoesExplanation)
+        msgbox("Enjoy your new shoes!")
+
+    	closemessage
+    }
+    else {
+        msgbox("How is your journey going honey?$")
+    }
 
     releaseall
 }
 
 script Knowhere_Sign_RivalHouse {
     lockall
-
     msgbox("Dylan's House")
-
     releaseall
 }
 
 script Knowhere_Sign_PlayerHouse {
     lockall
-
-    msgbox("Your House")
-
+    msgbox("{PLAYER} House")
     releaseall
 }
 
 script Knowhere_Sign_CherrysLab {
    lockall
-
    msgbox("Professor Cherry's lab")
-
    releaseall
+}
+
+text Text_RunningShoesExplanation {
+    "I heard that if you press the B Button\n"
+    "while wearing these RUNNING SHOES you\p"
+    "run extra-fast!$"
+}
+
+text Text_MomGivesRunningShoes {
+    "Hi honey!\p"
+    "I just got an extra pair of running\n"
+    "shoes from the mailman.\p"
+    "You can have one of them$"
+}
+
+movement Movement_MovePlayerLeft {
+    face_left
+    walk_left * 2
+    face_right
 }
