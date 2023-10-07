@@ -10463,6 +10463,7 @@ const union {
     } },
 
     [SPECIES_BODILAD] = { .learnset = {
+        .CUT = TRUE,
         .CALM_MIND = TRUE,
         .TOXIC = TRUE,
         .HIDDEN_POWER = TRUE,

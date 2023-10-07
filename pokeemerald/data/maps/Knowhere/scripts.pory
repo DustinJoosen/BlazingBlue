@@ -1,4 +1,10 @@
-mapscripts Knowhere_MapScripts { }
+mapscripts Knowhere_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION: Knowhere_Set_Cherry_Invisible
+}
+
+script Knowhere_Set_Cherry_Invisible {
+    setflag(FLAG_UNUSED_0x493)
+}
 
 script Knowhere_EventScript_Technology {
     lockall
@@ -21,6 +27,12 @@ script Knowhere_EventScript_LoveYou {
 script Knowhere_EventScript_FirstFight {
     lockall
 
+    additem(264, 1)
+    setflag(FLAG_RECEIVED_SUPER_ROD)
+
+    additem(339, 1)
+    setflag(FLAG_RECEIVED_HM_CUT)
+
     msgbox("You want to fight?", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         trainerbattle_single(TRAINER_JADZIA, "Hell yeah! Let's go", "Here's a kiss, as reward")
@@ -36,13 +48,18 @@ script Knowhere_EventScript_FirstFight {
 script Knowhere_EventScript_Roadblock {
     lockall
 
-    if (flag(FLAG_SYS_POKEMON_GET) == TRUE) {
-        releaseall
-        return
-    }
-
     msgbox("You remember Professor Cherry said she\nwanted to see you at her lab yesterday$")
     applymovement(OBJ_EVENT_ID_PLAYER, Movement_MovePlayerLeft)
+    waitmovement(0)
+
+    releaseall
+}
+
+script Knowhere_EventScript_PreventFishingWithoutMon {
+    lockall
+
+    msgbox("You remember Professor Cherry said she\nwanted to see you at her lab yesterday$")
+    applymovement(OBJ_EVENT_ID_PLAYER, Movement_MovePlayerAwayFromPond)
     waitmovement(0)
 
     releaseall
@@ -73,6 +90,61 @@ script Knowhere_EventScript_GiveRunningShoes {
     releaseall
 }
 
+script Knowhere_EventScript_WaitPlayerPokedex_Top {
+    lockall
+
+    clearflag(FLAG_UNUSED_0x493)
+    addobject(8)
+
+    applymovement(8, Movement_CherryMovesToTownExit_Top)
+    applymovement(OBJ_EVENT_ID_PLAYER, Movement_PlayerLookLeft)
+    msgbox("Wait {PLAYER}!")
+    waitmovement(8)
+
+    call(Knowhere_EventScript_GivePokdex)
+
+    releaseall
+}
+
+script Knowhere_EventScript_WaitPlayerPokedex_Bottom {
+    lockall
+
+    clearflag(FLAG_UNUSED_0x493)
+    addobject(8)
+
+    applymovement(8, Movement_CherryMovesToTownExit_Bottom)
+    applymovement(OBJ_EVENT_ID_PLAYER, Movement_PlayerLookLeft)
+    msgbox("Wait {PLAYER}!")
+    waitmovement(8)
+
+    call(Knowhere_EventScript_GivePokdex)
+
+    releaseall
+}
+
+script Knowhere_EventScript_GivePokdex {
+    setvar(VAR_UNUSED_0x40F7, 2)
+    msgbox(Text_GivePokedex)
+
+    playfanfare(MUS_OBTAIN_ITEM)
+    msgbox("{PLAYER} recieved the Pokedex")
+    waitfanfare()
+
+	setflag(FLAG_SYS_POKEDEX_GET)
+	special(SetUnlockedPokedexFlags)
+	setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+
+	msgbox("Now go on out, and explore\nthe REGIONNAME Region!$")
+	call(Knowhere_EventScript_MoveCherryAwayAgain)
+}
+
+script Knowhere_EventScript_MoveCherryAwayAgain {
+    applymovement(8, Movement_CherryReturnsToHerLab)
+    waitmovement(8)
+    applymovement(OBJ_EVENT_ID_PLAYER, Movement_PlayerLookRight)
+    removeobject(8)
+}
+
 script Knowhere_Sign_RivalHouse {
     lockall
     msgbox("Dylan's House")
@@ -91,6 +163,10 @@ script Knowhere_Sign_CherrysLab {
    releaseall
 }
 
+script Knowhere_EventScript_Item_UltraBall {
+    finditem(ITEM_ULTRA_BALL)
+}
+
 text Text_RunningShoesExplanation {
     "I heard that if you press the B Button\n"
     "while wearing these RUNNING SHOES you\p"
@@ -104,8 +180,52 @@ text Text_MomGivesRunningShoes {
     "You can have one of them$"
 }
 
+text Text_GivePokedex {
+    "I forgot to give you this pokedex!\p"
+    "This pokedex will allow you to\n"
+    "Record data about the pokemon that\p"
+    "you will come across on your journey!$"
+}
+
 movement Movement_MovePlayerLeft {
     face_left
     walk_left * 2
+    face_right
+}
+
+movement Movement_MovePlayerAwayFromPond {
+    face_right
+    walk_right * 2
+    face_left
+}
+
+movement Movement_CherryMovesToTownExit_Top {
+    face_up
+    walk_up * 7
+    face_right
+    walk_right * 2
+}
+
+movement Movement_CherryMovesToTownExit_Bottom {
+    face_up
+    walk_up * 6
+    face_right
+    walk_right * 2
+}
+
+movement Movement_CherryReturnsToHerLab {
+    face_left
+    walk_left * 2
+    face_down
+    walk_down * 6
+    face_left
+    walk_left * 10
+}
+
+movement Movement_PlayerLookLeft {
+    face_left
+}
+
+movement Movement_PlayerLookRight {
     face_right
 }
