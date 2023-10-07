@@ -65,6 +65,7 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_5:
 	removeobject 2
 	setflag FLAG_UNUSED_0x020
 	setflag FLAG_SYS_POKEMON_GET
+	setvar VAR_UNUSED_0x40F7, 1
 	call Knowhere_NicknamePartyMon
 	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_1
 
@@ -74,6 +75,7 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_6:
 	removeobject 2
 	setflag FLAG_UNUSED_0x020
 	setflag FLAG_SYS_POKEMON_GET
+	setvar VAR_UNUSED_0x40F7, 1
 	call Knowhere_NicknameBoxMon
 	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_1
 

@@ -4442,26 +4442,6 @@
       "blockdata_filepath": "data/layouts/Knowhere/map.bin"
     },
     {
-      "id": "LAYOUT_KNOWHERE_PLAYER_HOUSE",
-      "name": "Knowhere_PlayerHouse_Layout",
-      "width": 9,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
-      "border_filepath": "data/layouts/Knowhere_PlayerHouse/border.bin",
-      "blockdata_filepath": "data/layouts/Knowhere_PlayerHouse/map.bin"
-    },
-    {
-      "id": "LAYOUT_KNOWHERE_GYM",
-      "name": "Knowhere_Gym_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Knowhere_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/Knowhere_Gym/map.bin"
-    },
-    {
       "id": "LAYOUT_KNOWHERE_PROFESSOR_CHERRYS_LAB",
       "name": "Knowhere_ProfessorCherrysLab_Layout",
       "width": 13,
@@ -4470,6 +4450,46 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Knowhere_ProfessorCherrysLab/border.bin",
       "blockdata_filepath": "data/layouts/Knowhere_ProfessorCherrysLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_KNOWHERE_PLAYER_HOUSE_F1",
+      "name": "Knowhere_PlayerHouseF1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Knowhere_PlayerHouseF1/border.bin",
+      "blockdata_filepath": "data/layouts/Knowhere_PlayerHouseF1/map.bin"
+    },
+    {
+      "id": "LAYOUT_KNOWHERE_PLAYER_HOUSE_F2",
+      "name": "Knowhere_PlayerHouseF2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Knowhere_PlayerHouseF2/border.bin",
+      "blockdata_filepath": "data/layouts/Knowhere_PlayerHouseF2/map.bin"
+    },
+    {
+      "id": "LAYOUT_KNOWHERE_DYLAN_HOUSE_F1",
+      "name": "Knowhere_DylanHouseF1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Knowhere_DylanHouseF1/border.bin",
+      "blockdata_filepath": "data/layouts/Knowhere_DylanHouseF1/map.bin"
+    },
+    {
+      "id": "LAYOUT_KNOWHERE_DYLAN_HOUSE_F2",
+      "name": "Knowhere_DylanHouseF2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Knowhere_DylanHouseF2/border.bin",
+      "blockdata_filepath": "data/layouts/Knowhere_DylanHouseF2/map.bin"
     }
   ]
 }

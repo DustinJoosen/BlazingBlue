@@ -66,9 +66,11 @@
 #define MAP_KNOWHERE            (57 | (0 << 8))
 
 // gMapGroup_IndoorKnowhere
-#define MAP_KNOWHERE_PLAYER_HOUSE          (0 | (1 << 8))
-#define MAP_KNOWHERE_GYM                   (1 | (1 << 8))
-#define MAP_KNOWHERE_PROFESSOR_CHERRYS_LAB (2 | (1 << 8))
+#define MAP_KNOWHERE_PROFESSOR_CHERRYS_LAB (0 | (1 << 8))
+#define MAP_KNOWHERE_PLAYER_HOUSE_F1       (1 | (1 << 8))
+#define MAP_KNOWHERE_PLAYER_HOUSE_F2       (2 | (1 << 8))
+#define MAP_KNOWHERE_DYLAN_HOUSE_F1        (3 | (1 << 8))
+#define MAP_KNOWHERE_DYLAN_HOUSE_F2        (4 | (1 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F     (0 | (2 << 8))

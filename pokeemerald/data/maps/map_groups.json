@@ -97,9 +97,11 @@
     "Knowhere"
   ],
   "gMapGroup_IndoorKnowhere": [
-    "Knowhere_PlayerHouse",
-    "Knowhere_Gym",
-    "Knowhere_ProfessorCherrysLab"
+    "Knowhere_ProfessorCherrysLab",
+    "Knowhere_PlayerHouseF1",
+    "Knowhere_PlayerHouseF2",
+    "Knowhere_DylanHouseF1",
+    "Knowhere_DylanHouseF2"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
