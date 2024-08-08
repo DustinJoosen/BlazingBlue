@@ -51,6 +51,10 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_1:
 
 Knowhere_ProfessorCherrysLab_EventScript_Pokeball_2:
 	givemon SPECIES_BODILAD, 50, ITEM_MASTER_BALL
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_SYS_POKEDEX_GET
+	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	special SetUnlockedPokedexFlags
 	compare VAR_RESULT, MON_GIVEN_TO_PARTY
 	goto_if_eq Knowhere_ProfessorCherrysLab_EventScript_Pokeball_5
 	compare VAR_RESULT, MON_GIVEN_TO_PC
@@ -64,7 +68,6 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_5:
 	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Text_1
 	removeobject 2
 	setflag FLAG_UNUSED_0x020
-	setflag FLAG_SYS_POKEMON_GET
 	call Knowhere_NicknamePartyMon
 	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_1
 
@@ -73,9 +76,52 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_6:
 	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Text_1
 	removeobject 2
 	setflag FLAG_UNUSED_0x020
-	setflag FLAG_SYS_POKEMON_GET
 	call Knowhere_NicknameBoxMon
 	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_1
+
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett::
+	lockall
+	showmonpic SPECIES_DRIPLETT, 10, 3
+	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_Text_0, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_2
+	hidemonpic
+	msgbox Knowhere_ProfessorCherrysLab_NotChosen
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_1:
+	waitmessage
+	releaseall
+	end
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_2:
+	givemon SPECIES_DRIPLETT, 5
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_SYS_POKEDEX_GET
+	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	special SetUnlockedPokedexFlags
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_5
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_6
+	hidemonpic
+	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Text_2
+	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_1
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_5:
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_Text_1
+	removeobject 2
+	setflag FLAG_UNUSED_0x020
+	call Knowhere_NicknamePartyMon
+	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_1
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_6:
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_Text_1
+	removeobject 2
+	setflag FLAG_UNUSED_0x020
+	call Knowhere_NicknameBoxMon
+	goto Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_1
 
 
 Knowhere_NicknamePartyMon::
@@ -154,6 +200,12 @@ Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Text_1:
 
 Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Text_2:
 	.string "No more room$"
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_Text_0:
+	.string "Do you want to choose Driplett?$"
+
+Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett_Text_1:
+	.string "Recieved Driplett$"
 
 Knowhere_NicknamePartyMon_Text_0:
 	.string "Give it a nickname?$"

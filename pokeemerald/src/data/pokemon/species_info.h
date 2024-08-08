@@ -12449,4 +12449,62 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.bodyColor = BODY_COLOR_WHITE,
 		.noFlip = FALSE
 	}
+	,[SPECIES_MAUSHOLD] = 
+	{
+		.baseHP	= 74,
+		.baseAttack	= 75,
+		.baseDefense	= 70,
+		.baseSpeed	= 111,
+		.baseSpAttack	= 65,
+		.baseSpDefense	= 75,
+		.types = { TYPE_NORMAL, TYPE_NORMAL},
+		.catchRate	= 75,
+		.expYield	= 165,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 0,
+		.evYield_Speed	= 2,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 0,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = MON_GENDERLESS,
+		.eggCycles = 10,
+		.friendship = 50,
+		.growthRate = GROWTH_FAST,
+		.eggGroups = {EGG_GROUP_FIELD, EGG_GROUP_FAIRY},
+		.abilities = {ABILITY_RUN_AWAY, ABILITY_RUN_AWAY},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_WHITE,
+		.noFlip = FALSE
+	}
+	,[SPECIES_DRIPLETT] = 
+	{
+		.baseHP	= 60,
+		.baseAttack	= 35,
+		.baseDefense	= 30,
+		.baseSpeed	= 55,
+		.baseSpAttack	= 60,
+		.baseSpDefense	= 70,
+		.types = { TYPE_WATER, TYPE_WATER},
+		.catchRate	= 45,
+		.expYield	= 62,
+		.evYield_HP	= 0,
+		.evYield_Attack	= 0,
+		.evYield_Defense	= 0,
+		.evYield_Speed	= 0,
+		.evYield_SpAttack	= 0,
+		.evYield_SpDefense	= 2,
+		.itemCommon = ITEM_NONE,
+		.itemRare = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(12),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_SLOW,
+		.eggGroups = {EGG_GROUP_WATER_1, EGG_GROUP_HUMAN_LIKE},
+		.abilities = {ABILITY_TORRENT, ABILITY_TORRENT},
+		.safariZoneFleeRate = 0,
+		.bodyColor = BODY_COLOR_BLUE,
+		.noFlip = FALSE
+	}
 };

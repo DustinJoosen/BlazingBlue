@@ -12414,10 +12414,26 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jadzia[] = {
+static const struct TrainerMonItemCustomMoves sParty_Jadzia[] = {
     {
-    .iv = 0,
+    .iv = 255,
     .lvl = 5,
-    .species = SPECIES_KYOGRE,
+    .species = SPECIES_SENTRET,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SCRATCH, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .species = SPECIES_BODILAD,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TACKLE, MOVE_DOUBLE_SLAP, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 1,
+    .species = SPECIES_JIRACHI,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_DOOM_DESIRE, MOVE_PSYCHIC, MOVE_COSMIC_POWER, MOVE_SWIFT}
     }
 };

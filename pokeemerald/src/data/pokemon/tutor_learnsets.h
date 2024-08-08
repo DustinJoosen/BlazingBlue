@@ -5760,6 +5760,8 @@ static const u32 sTutorLearnsets[] =
 	[SPECIES_SWADLOON]         = (0),
 	[SPECIES_LEAVANNY]         = (0),
 	[SPECIES_OVERQWIL]         = (0),
+	[SPECIES_MAUSHOLD]         = (0),
+	[SPECIES_DRIPLETT]         = (0),
     [SPECIES_CHIMECHO]         = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_DREAM_EATER)

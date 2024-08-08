@@ -99,10 +99,10 @@ Movement_MovePlayerLeft:
 	step_end
 
 Knowhere_EventScript_Technology_Text_0:
-	.string "Technology is amazing!$"
+	.string "Technology fucking sucks!$"
 
 Knowhere_EventScript_LoveYou_Text_0:
-	.string "Ik ga naar bed. Love you lots!$"
+	.string "Don't you just love flowers?$"
 
 Knowhere_EventScript_FirstFight_Text_0:
 	.string "You want to fight?$"

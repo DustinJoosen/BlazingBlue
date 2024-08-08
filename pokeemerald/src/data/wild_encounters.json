@@ -11491,6 +11491,199 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_ROUTE_I",
+          "base_label": "gRouteI0",
+          "land_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_SENTRET"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_SENTRET"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_SENTRET"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_BLIPBUG"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_DOTTLER"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_WOOPER"
+              },
+              {
+                "min_level": 100,
+                "max_level": 100,
+                "species": "SPECIES_GRIMMSNARL"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 3,
+                "max_level": 8,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_GYARADOS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE_II",
+          "base_label": "gRouteII0",
+          "land_mons": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DRIPLETT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DRIPLETT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DRIPLETT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TANDEMAUS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAUSHOLD"
+              }
+            ]
+          }
         }
       ]
     },

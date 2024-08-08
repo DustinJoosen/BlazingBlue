@@ -1066,3 +1066,13 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Knowhere_Gym/scripts.inc"
 
 	.include "data/maps/Knowhere_ProfessorCherrysLab/scripts.inc"
+
+	.include "data/maps/RouteI/scripts.inc"
+
+	.include "data/maps/SpectreVille/scripts.inc"
+
+	.include "data/maps/RouteII/scripts.inc"
+
+	.include "data/maps/RightThereWoods/scripts.inc"
+
+	.include "data/maps/Someplace/scripts.inc"

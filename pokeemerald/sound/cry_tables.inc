@@ -388,33 +388,35 @@ gCryTable::
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
-	cry Cry_Overqwil
-	cry Cry_Leavanny
-	cry Cry_Swadloon
-	cry Cry_Sewaddle
-	cry Cry_Sylveon
-	cry Cry_Leafeon
-	cry Cry_Glaceon
-	cry Cry_Jellicent
-	cry Cry_Frillish
-	cry Cry_Grimmsnarl
-	cry Cry_Morgrem
-	cry Cry_Stoutland
-	cry Cry_Herdier
-	cry Cry_Lillipup
-	cry Cry_Toxapex
-	cry Cry_Mareanie
-	cry Cry_Impidimp
-	cry Cry_Orbeetle
-	cry Cry_Dottler
-	cry Cry_Blipbug
-	cry Cry_Galvantula
-	cry Cry_Joltik
-	cry Cry_Piplup
-	cry Cry_Toxtricity
-	cry Cry_Toxel
-	cry Cry_Tandemaus
 	cry Cry_Bodilad
+	cry Cry_Tandemaus
+	cry Cry_Toxel
+	cry Cry_Toxtricity
+	cry Cry_Piplup
+	cry Cry_Joltik
+	cry Cry_Galvantula
+	cry Cry_Blipbug
+	cry Cry_Dottler
+	cry Cry_Orbeetle
+	cry Cry_Impidimp
+	cry Cry_Mareanie
+	cry Cry_Toxapex
+	cry Cry_Lillipup
+	cry Cry_Herdier
+	cry Cry_Stoutland
+	cry Cry_Morgrem
+	cry Cry_Grimmsnarl
+	cry Cry_Frillish
+	cry Cry_Jellicent
+	cry Cry_Glaceon
+	cry Cry_Leafeon
+	cry Cry_Sylveon
+	cry Cry_Sewaddle
+	cry Cry_Swadloon
+	cry Cry_Leavanny
+	cry Cry_Overqwil
+	cry Cry_Maushold
+	cry Cry_Driplett
 
 	.align 2
 gCryTable_Reverse::
@@ -806,30 +808,32 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Chimecho
-	cry_reverse Cry_Overqwil
-	cry_reverse Cry_Leavanny
-	cry_reverse Cry_Swadloon
-	cry_reverse Cry_Sewaddle
-	cry_reverse Cry_Sylveon
-	cry_reverse Cry_Leafeon
-	cry_reverse Cry_Glaceon
-	cry_reverse Cry_Jellicent
-	cry_reverse Cry_Frillish
-	cry_reverse Cry_Grimmsnarl
-	cry_reverse Cry_Morgrem
-	cry_reverse Cry_Stoutland
-	cry_reverse Cry_Herdier
-	cry_reverse Cry_Lillipup
-	cry_reverse Cry_Toxapex
-	cry_reverse Cry_Mareanie
-	cry_reverse Cry_Impidimp
-	cry_reverse Cry_Orbeetle
-	cry_reverse Cry_Dottler
-	cry_reverse Cry_Blipbug
-	cry_reverse Cry_Galvantula
-	cry_reverse Cry_Joltik
-	cry_reverse Cry_Piplup
-	cry_reverse Cry_Toxtricity
-	cry_reverse Cry_Toxel
-	cry_reverse Cry_Tandemaus
     cry_reverse Cry_Bodilad
+	cry_reverse Cry_Tandemaus
+	cry_reverse Cry_Toxel
+	cry_reverse Cry_Toxtricity
+	cry_reverse Cry_Piplup
+	cry_reverse Cry_Joltik
+	cry_reverse Cry_Galvantula
+	cry_reverse Cry_Blipbug
+	cry_reverse Cry_Dottler
+	cry_reverse Cry_Orbeetle
+	cry_reverse Cry_Impidimp
+	cry_reverse Cry_Mareanie
+	cry_reverse Cry_Toxapex
+	cry_reverse Cry_Lillipup
+	cry_reverse Cry_Herdier
+	cry_reverse Cry_Stoutland
+	cry_reverse Cry_Morgrem
+	cry_reverse Cry_Grimmsnarl
+	cry_reverse Cry_Frillish
+	cry_reverse Cry_Jellicent
+	cry_reverse Cry_Glaceon
+	cry_reverse Cry_Leafeon
+	cry_reverse Cry_Sylveon
+	cry_reverse Cry_Sewaddle
+	cry_reverse Cry_Swadloon
+	cry_reverse Cry_Leavanny
+	cry_reverse Cry_Overqwil
+	cry_reverse Cry_Maushold
+	cry_reverse Cry_Driplett

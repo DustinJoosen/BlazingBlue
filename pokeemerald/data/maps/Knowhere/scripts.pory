@@ -4,7 +4,7 @@ script Knowhere_EventScript_Technology {
     lockall
     faceplayer
 
-    msgbox("Technology is amazing!")
+    msgbox("Technology fucking sucks!")
 
     releaseall
 }
@@ -13,7 +13,7 @@ script Knowhere_EventScript_LoveYou {
     lockall
     faceplayer
 
-    msgbox("Ik ga naar bed. Love you lots!")
+    msgbox("Don't you just love flowers?")
 
     releaseall
 }

@@ -10262,13 +10262,13 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_JADZIA] =
     {
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
-        .trainerName = _("JADZIA"),
+        .trainerPic = TRAINER_PIC_YOUNGSTER,
+        .trainerName = _("FINN"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Jadzia),
+        .party = ITEM_CUSTOM_MOVES(sParty_Jadzia),
     },
 };

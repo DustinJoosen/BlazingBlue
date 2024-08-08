@@ -443,6 +443,8 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_SWADLOON]                     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_LEAVANNY]                     = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  0 },
     [SPECIES_OVERQWIL]                     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
+	[SPECIES_MAUSHOLD]   = { .size = 0x88, .y_offset =  10 },
+	[SPECIES_DRIPLETT]   = { .size = 0x88, .y_offset =  21 },
     [SPECIES_EGG]         = { .size = MON_COORDS_SIZE(24, 48), .y_offset = 10 },
     [SPECIES_UNOWN_B]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset =  9 },
     [SPECIES_UNOWN_C]     = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  6 },

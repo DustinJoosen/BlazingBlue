@@ -4769,6 +4769,20 @@ static const union AnimCmd sAnim_Overqwil_1[] =
 	ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Maushold_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Driplett_1[] = 
+{
+	ANIMCMD_FRAME(1, 30),
+	ANIMCMD_FRAME(0, 20),
+	ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -5437,6 +5451,8 @@ SINGLE_ANIMATION(Sewaddle);
 SINGLE_ANIMATION(Swadloon);
 SINGLE_ANIMATION(Leavanny);
 SINGLE_ANIMATION(Overqwil);
+SINGLE_ANIMATION(Maushold);
+SINGLE_ANIMATION(Driplett);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5907,6 +5923,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	[SPECIES_SWADLOON]         = sAnims_Swadloon,
 	[SPECIES_LEAVANNY]         = sAnims_Leavanny,
 	[SPECIES_OVERQWIL]         = sAnims_Overqwil,
+	[SPECIES_MAUSHOLD]         = sAnims_Maushold,
+	[SPECIES_DRIPLETT]         = sAnims_Driplett,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

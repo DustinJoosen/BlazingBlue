@@ -4944,6 +4944,30 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 2,
 	},
 
+	[NATIONAL_DEX_MAUSHOLD] = 
+	{
+		.categoryName = _("FAMILY"),
+		.height = 0.3,
+		.weight = 2.8,
+		.description = gMausholdPokedexText,
+		.pokemonScale = 30,
+		.pokemonOffset = 0,
+		.trainerScale = 30,
+		.trainerOffset = 2,
+	},
+
+	[NATIONAL_DEX_DRIPLETT] = 
+	{
+		.categoryName = _("Bubble"),
+		.height = 0.5,
+		.weight = 5,
+		.description = gDriplettPokedexText,
+		.pokemonScale = 64,
+		.pokemonOffset = 0,
+		.trainerScale = 64,
+		.trainerOffset = 2,
+	},
+
     [NATIONAL_DEX_DEOXYS] =
     {
         .categoryName = _("DNA"),

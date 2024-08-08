@@ -4470,6 +4470,56 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Knowhere_ProfessorCherrysLab/border.bin",
       "blockdata_filepath": "data/layouts/Knowhere_ProfessorCherrysLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_I",
+      "name": "RouteI_Layout",
+      "width": 26,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/RouteI/border.bin",
+      "blockdata_filepath": "data/layouts/RouteI/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPECTRE_VILLE",
+      "name": "SpectreVille_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SpectreVille/border.bin",
+      "blockdata_filepath": "data/layouts/SpectreVille/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_II",
+      "name": "RouteII_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/RouteII/border.bin",
+      "blockdata_filepath": "data/layouts/RouteII/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIGHT_THERE_WOODS",
+      "name": "RightThereWoods_Layout",
+      "width": 20,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/RightThereWoods/border.bin",
+      "blockdata_filepath": "data/layouts/RightThereWoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOMEPLACE",
+      "name": "Someplace_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Someplace/border.bin",
+      "blockdata_filepath": "data/layouts/Someplace/map.bin"
     }
   ]
 }

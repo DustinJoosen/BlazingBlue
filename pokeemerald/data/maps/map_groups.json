@@ -94,7 +94,12 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "Knowhere"
+    "Knowhere",
+    "RouteI",
+    "SpectreVille",
+    "RouteII",
+    "RightThereWoods",
+    "Someplace"
   ],
   "gMapGroup_IndoorKnowhere": [
     "Knowhere_PlayerHouse",

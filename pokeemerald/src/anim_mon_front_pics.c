@@ -420,6 +420,8 @@ const u32 gMonFrontPic_Sewaddle[] = INCBIN_U32("graphics/pokemon/sewaddle/anim_f
 const u32 gMonFrontPic_Swadloon[] = INCBIN_U32("graphics/pokemon/swadloon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Leavanny[] = INCBIN_U32("graphics/pokemon/leavanny/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonFrontPic_UnownB[] = INCBIN_U32("graphics/pokemon/unown/b/anim_front.4bpp.lz");

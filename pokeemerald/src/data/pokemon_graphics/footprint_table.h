@@ -439,5 +439,7 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_SWADLOON] = gMonFootprint_Swadloon,
 	[SPECIES_LEAVANNY] = gMonFootprint_Leavanny,
 	[SPECIES_OVERQWIL] = gMonFootprint_Overqwil,
+	[SPECIES_MAUSHOLD] = gMonFootprint_Maushold,
+	[SPECIES_DRIPLETT] = gMonFootprint_Driplett,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

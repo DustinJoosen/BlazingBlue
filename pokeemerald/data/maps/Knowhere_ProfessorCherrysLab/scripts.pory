@@ -49,12 +49,16 @@ script Knowhere_ProfessorCherrysLab_EventScript_Pokeball {
     if (var(VAR_RESULT) == YES) {
         givemon(SPECIES_BODILAD, 50, ITEM_MASTER_BALL)
 
+        setflag(FLAG_SYS_POKEMON_GET)
+        setflag(FLAG_SYS_POKEDEX_GET)
+        setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+        special(SetUnlockedPokedexFlags)
+
         if (var(VAR_RESULT) == MON_GIVEN_TO_PARTY) {
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Bodilad")
             removeobject(2)
             setflag(FLAG_UNUSED_0x020)
-            setflag(FLAG_SYS_POKEMON_GET)
             call(Knowhere_NicknamePartyMon)
         }
         elif (var(VAR_RESULT) == MON_GIVEN_TO_PC) {
@@ -62,7 +66,6 @@ script Knowhere_ProfessorCherrysLab_EventScript_Pokeball {
             msgbox("Recieved Bodilad")
             removeobject(2)
             setflag(FLAG_UNUSED_0x020)
-            setflag(FLAG_SYS_POKEMON_GET)
             call(Knowhere_NicknameBoxMon)
         }
         else {
@@ -79,6 +82,51 @@ script Knowhere_ProfessorCherrysLab_EventScript_Pokeball {
     releaseall
     end
 }
+
+script Knowhere_ProfessorCherrysLab_EventScript_Pokeball_Driplett {
+    lockall
+
+    showmonpic(SPECIES_DRIPLETT, 10, 3)
+    msgbox("Do you want to choose Driplett?", MSGBOX_YESNO)
+
+    if (var(VAR_RESULT) == YES) {
+        givemon(SPECIES_DRIPLETT, 5)
+
+        setflag(FLAG_SYS_POKEMON_GET)
+        setflag(FLAG_SYS_POKEDEX_GET)
+        setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+        special(SetUnlockedPokedexFlags)
+
+        if (var(VAR_RESULT) == MON_GIVEN_TO_PARTY) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Driplett")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x020)
+            call(Knowhere_NicknamePartyMon)
+        }
+        elif (var(VAR_RESULT) == MON_GIVEN_TO_PC) {
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Driplett")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x020)
+            call(Knowhere_NicknameBoxMon)
+        }
+        else {
+            hidemonpic
+            msgbox("No more room")
+        }
+    }
+    else {
+        hidemonpic
+        msgbox(Knowhere_ProfessorCherrysLab_NotChosen)
+    }
+
+    waitmessage
+    releaseall
+    end
+}
+
+
 
 script Knowhere_NicknamePartyMon {
     msgbox("Give it a nickname?", MSGBOX_YESNO)

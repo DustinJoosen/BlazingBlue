@@ -10435,6 +10435,23 @@ const union {
 		.SLUDGE_BOMB = TRUE,
 		.HYPER_BEAM = TRUE,
 	}},
+	[SPECIES_MAUSHOLD] = { .learnset = {
+		.PROTECT = TRUE,
+		.WATER_PULSE = TRUE,
+		.THIEF = TRUE,
+		.FACADE = TRUE,
+		.AERIAL_ACE = TRUE,
+		.SUNNY_DAY = TRUE,
+		.RAIN_DANCE = TRUE,
+		.DIG = TRUE,
+		.BULLET_SEED = TRUE,
+		.REST = TRUE,
+		.TAUNT = TRUE,
+		.HYPER_BEAM = TRUE,
+	}},
+	[SPECIES_DRIPLETT] = { .learnset = {
+		.SURF = TRUE,
+	}},
     [SPECIES_CHIMECHO] = { .learnset = {
         .CALM_MIND = TRUE,
         .TOXIC = TRUE,

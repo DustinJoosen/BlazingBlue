@@ -64,6 +64,11 @@
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
 #define MAP_KNOWHERE            (57 | (0 << 8))
+#define MAP_ROUTE_I             (58 | (0 << 8))
+#define MAP_SPECTRE_VILLE       (59 | (0 << 8))
+#define MAP_ROUTE_II            (60 | (0 << 8))
+#define MAP_RIGHT_THERE_WOODS   (61 | (0 << 8))
+#define MAP_SOMEPLACE           (62 | (0 << 8))
 
 // gMapGroup_IndoorKnowhere
 #define MAP_KNOWHERE_PLAYER_HOUSE          (0 | (1 << 8))

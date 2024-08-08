@@ -662,9 +662,10 @@ def add_evolution():
 def warn_left_todos():
     print("After executing all functions, there are a few small manual tasks left to do")
     print("1) add the files. (sprites and cries)")
-    print("2) sort the pokedex based on height, weight, and alphabetic order")
-    print("3) add the pokemon to easychat")
-    print("4) manually add tutor and egg moves (will make this automatic maybe)")
+    print("2) Fix the cry order. New at the bottom")
+    print("3) sort the pokedex based on height, weight, and alphabetic order")
+    print("4) add the pokemon to easychat")
+    print("5) manually add tutor and egg moves (will make this automatic maybe)")
 
     print(f"And then you are done! Add the mon via porymap, and good luck with {NAME}!")
 

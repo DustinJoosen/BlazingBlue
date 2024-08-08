@@ -2887,6 +2887,20 @@ const u32 gMonShinyPalette_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/sh
 const u32 gMonIcon_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/icon.4bpp");
 const u32 gMonFootprint_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/front.4bpp.lz");
+const u32 gMonPalette_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/normal.gbapal.lz");
+const u32 gMonBackPic_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/back.4bpp.lz");
+const u32 gMonShinyPalette_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/shiny.gbapal.lz");
+const u32 gMonIcon_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/icon.4bpp");
+const u32 gMonFootprint_Maushold[] = INCBIN_U32("graphics/pokemon/maushold/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/front.4bpp.lz");
+const u32 gMonPalette_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/normal.gbapal.lz");
+const u32 gMonBackPic_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/back.4bpp.lz");
+const u32 gMonShinyPalette_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/shiny.gbapal.lz");
+const u32 gMonIcon_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/icon.4bpp");
+const u32 gMonFootprint_Driplett[] = INCBIN_U32("graphics/pokemon/driplett/footprint.1bpp");
+
 // Probably the leftover space from the other Deoxys forms
 static const u8 sEmpty[0x6800] = {0};
 

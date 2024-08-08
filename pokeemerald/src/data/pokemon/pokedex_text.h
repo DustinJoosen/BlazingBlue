@@ -2495,6 +2495,20 @@ const u8 gOverqwilPokedexText[] = _(
 	"up poison to nourish itself.\n"
 );
 
+const u8 gMausholdPokedexText[] = _(
+	"The two little ones just appeared ones\n"
+	"day. The group might be a family of\n"
+	"related pokemon, but nobody knows\n"
+	"for sure.\n"
+);
+
+const u8 gDriplettPokedexText[] = _(
+	"Driplett is a very smart and curious\n"
+	"pokemon, it uses it's bubbles to see\n"
+	"in high areas.\n"
+	" \n"
+);
+
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
     "extraterrestrial virus exposed to a laser\n"
